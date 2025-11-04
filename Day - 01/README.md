@@ -81,4 +81,57 @@ It is a Part of Transmission Mode.
    > - **When one device is transmitting, the other must wait.**
    > - Example : Walkie-talkies (you say “over” after speaking)
 
-- **Full Duplex Mode -** 
+- **Full Duplex Mode -** A two-way communication mode **where data flows in both directions.**
+   > - Both devices can send and receive at the same time.
+   > - Example : Telephone calls (both people talk and listen at once) , Video conferencing
+
+---
+# Types of Computer Networks
+Computer network is a Connection of devices to communicate & share data and resources.
+
+> - **PAN : Personal Area Network**
+> - **LAN : Local Area Network**
+> - **MAN : Metropolitan Area Network**
+> - **WAN : Wide Area Network**
+> - **CAN : Campus Area Network**
+
+- **1. PAN :-** It is small range network , Connects personal devices like phones, laptops, Bluetooth devices.
+   > - *Example :* Mobile Hotspot , Bluetooth
+
+- **2. LAN :-** It covers a small area like a home, office, or school. *It may wired & wireless.**
+   > - *Example :* Wifi in Home or Office , Computer and Printer on same network
+
+- **3. CAN :-** It is used to connect multiple buildings in one campus. *Connects multiple LANs within a campus or organization.*
+   > - *Example :* University network connecting the library, hostels, and classrooms together.
+
+- **4. MAN :-** It covers a city or large campus in a network.
+   > - *Example :* City wide Wifi network.
+
+- **5. WAN :-** It covers large geographical areas, connects multiple LANs/MANs.
+   > - *Example :* The Internet, Connect Many city Network or Global.
+
+---
+# Network Topology
+It shows how they are connected and how data flows between them.
+
+> - Point-to-Point Topology
+> - Bus Topology
+> - Ring Topology
+> - Star Topology
+> - Tree Topology
+> - Hybrid Topology
+> - Mesh Topology
+
+- **1. Point-to-Point Topology :-** Simple communication between two nodes, *one is sender and other is reciever.*
+
+- **2. Bus Topology :-** It connects all devices to a single central cable, *If the main cable fails, entire network goes down.*
+
+- **3. Ring Topology :-** Each device is connected with two other devices, forming a ring loop (circle).
+   > - Data travels in one direction around the ring *until it reaches its destination.*
+   > - **It uses large numbers of Repeaters for per node, Repeaters prevent data loss.**
+
+- **4. Star Topology :-**
+  
+- **2. Bus Topology :-**
+- **2. Bus Topology :-**
+- **2. Bus Topology :-**
