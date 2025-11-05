@@ -130,8 +130,16 @@ It shows how they are connected and how data flows between them.
    > - Data travels in one direction around the ring *until it reaches its destination.*
    > - **It uses large numbers of Repeaters for per node, Repeaters prevent data loss.**
 
-- **4. Star Topology :-**
-  
-- **2. Bus Topology :-**
-- **2. Bus Topology :-**
+- **4. Star Topology :-** All devices are connected to a central hub or switch.
+   > - Each device has its own cable to the hub/switch.
+   > - If one cable fails → **only that device is affected.**
+   
+- **5. Tree Topology :-** A groups of star networks are connected to a main cable (backbone).
+   > - It has root node **(main hub)** and branches **(secondary hubs)**.
+   > - Used in large networks like schools or offices.
+   > - If the backbone fails, **the whole network can be affected.**
+
+- **6. Hybrid Topology :-** 
+
+
 - **2. Bus Topology :-**
