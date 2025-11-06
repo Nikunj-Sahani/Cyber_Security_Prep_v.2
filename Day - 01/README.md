@@ -139,7 +139,12 @@ It shows how they are connected and how data flows between them.
    > - Used in large networks like schools or offices.
    > - If the backbone fails, **the whole network can be affected.**
 
-- **6. Hybrid Topology :-** 
+- **6. Hybrid Topology :-** Combination of two or more topologies for better performance and flexibility.
+   > - A company network where departments use star topology, and **all are connected using a bus or ring backbone.**
 
+- **2. Mesh Topology :-** Every device is connected directly to every other device in the network.
+   > - Highly reliable — if one link fails, data can use another path.
+   > - **It creates multiple paths for data to travel.**
+   > - Expensive and complex to set up (many cables and ports).
 
-- **2. Bus Topology :-**
+---
