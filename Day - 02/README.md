@@ -36,7 +36,7 @@ A MAC address is a unique hardware identifier assigned to a device’s network i
 
 ### Bit in IP Address
 - [ ] Ipv4 address made by 32 bit - **192.168.1.0**
-- [ ] One octate takes 8 bit.
+- [ ] One Octate takes 8 bit.
 
    > - 192 : **8-bit**
    > - 168 : **8-bit**
@@ -53,7 +53,46 @@ A MAC address is a unique hardware identifier assigned to a device’s network i
    > - Class B :: **128 - 191**
    > - Class C :: **192 - 223**
    > - Class D :: **224 - 239**
+ 
+  - *Mainly Used* :: **Class-C IP : 192.168.1.0**
 
 ### Parts of IP Address
+Every IPv4 address has two Parts
+> - Network Part
+> - Host Part
+
+- **IP of Class A** - 10.10.1.1
+
+  > - 10 : Network
+  > - 10 : Host
+  > - 1 : Host
+  > - 1 : Host
+
+- **IP of Class B** - 128.10.1.0
+
+  > - 128 : Network
+  > - 10 : Network
+  > - 1 : Host
+  > - 0 : Host
+
+- **IP of Class C** - 192.50.1.1
+
+  > - 192 : Network
+  > - 50 : Network
+  > - 1 : Network
+  > - 1 : Host
+
+- **Table For Understand**
+
+|         Class         | 1st | 2nd | 3rd | 4th |
+|-----------------------|-----|-----|-----|-----|
+| Class A - 10.10.1.1   |  N  |  H  |  H  |  H  |
+| Class B - 128.10.1.0  |  N  |  N  |  H  |  H  |
+| Class C - 192.50.1.1  |  N  |  N  |  N  |  H  |
+
 
 ---
+
+
+
+
