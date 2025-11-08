@@ -92,6 +92,23 @@ Every IPv4 address has two Parts
 
 
 ---
+## Binary to Decimal - IP Bit
+Each octet (8 bits) is converted from binary → decimal to form a IP address.
+
+### Using 8-Bit
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
