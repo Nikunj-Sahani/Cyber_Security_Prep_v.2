@@ -95,14 +95,51 @@ Every IPv4 address has two Parts
 ## Binary to Decimal - IP Bit
 Each octet (8 bits) is converted from binary → decimal to form a IP address.
 
+- Formula : **Binary Number * 2ⁿ⁽ᵇⁱⁿᵃʳʸ ᵖᵒˢⁱᵗⁱᵒⁿ ᵛᵃˡᵘᵉ⁾**
+> - **n * 2ⁿ**
+
 ### Using 8-Bit
+ - **Number - 256**
+
+| S.No. | Binary | Position | Binary to Number |
+|-------|--------|----------|------------------|
+|   1   |   0    |     0    |    0 * 2⁰ = 0    |
+|   2   |   0    |     1    |    0 * 2¹ = 0    |     
+|   3   |   0    |     2    |    0 * 2² = 0    |     
+|   4   |   0    |     3    |    0 * 2³ = 0    |     
+|   5   |   0    |     4    |    0 * 2⁴ = 0    |     
+|   6   |   0    |     5    |    0 * 2⁵ = 0    |     
+|   7   |   0    |     6    |    0 * 2⁶ = 0    |     
+|   8   |   0    |     7    |    0 * 2⁷ = 0    |     
 
 
 
 
 
 
+### How can we define with Different Bit ?
+For better mindset, we differentiate the bit,
 
+ > - If someone ask for : 4 - bit
+ > - If someone ask for : 3 - bit
+ > - If someone ask for : 2 - bit
+
+### **4 - Bit**
+  We define using 4 - bit
+  - How many Numbers can create using 4 - bit.
+  > - 
+
+  ### **3 - Bit**
+  We define using 2 - bit
+  - How many Numbers can create using 2 - bit.
+  > - 
+
+
+
+### **2 - Bit**
+  We define using 2 - bit
+  - How many Numbers can create using 2 - bit.
+  > - 
 
 
 
