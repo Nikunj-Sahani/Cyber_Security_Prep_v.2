@@ -90,17 +90,17 @@ Every IPv4 address has two Parts
 | Class B - 128.10.1.0  |  N  |  N  |  H  |  H  |
 | Class C - 192.50.1.1  |  N  |  N  |  N  |  H  |
 
-
 ---
 ## Binary to Decimal - IP Bit
 Each octet (8 bits) is converted from binary → decimal to form a IP address.
 
 - Formula : **Binary Number * 2ⁿ⁽ᵇⁱⁿᵃʳʸ ᵖᵒˢⁱᵗⁱᵒⁿ ᵛᵃˡᵘᵉ⁾**
 > - **n * 2ⁿ**
+> - **IP 192.168.1.0 - Describe in Bit**
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/B-D-1.png" alt="Sample Image"></div>
 
-
-
-### Using 8-Bit
+---
+### 🥎 8 - Bit
  - **We can create 256 numbers using 8 - bits**
  - **Example -** 1  0  1  0  0  0  0  1 
 
@@ -115,39 +115,55 @@ Each octet (8 bits) is converted from binary → decimal to form a IP address.
 |   7   |   0    |     6    |    0 * 2⁶ = 0    |     
 |   8   |   0    |     7    |    0 * 2⁷ = 0    |     
 
-
 ### How can we define with Different Bit ?
 For better mindset, we differentiate the bit,
 
+ > - If someone ask for : 8 - bit
  > - If someone ask for : 4 - bit
  > - If someone ask for : 3 - bit
  > - If someone ask for : 2 - bit
 
-### **4 - Bit**
+### 🥎 4 - Bit
   We define using 4 - bit
   - How many Numbers can create using 4 - bit ?
   - **We can create 16 numbers using 4 - bits**
 
+| Binary | Binary | Binary | Binary |  
+|--------|--------|--------|--------|
+|  0000  |  0100  |  1000  |  1100  | 
+|  0001  |  0101  |  1001  |  1101  |
+|  0010  |  0110  |  1010  |  1110  |
+|  0011  |  0111  |  1011  |  1111  |
 
-
-
-  ### **3 - Bit**
+### 🥎3 - Bit
   We define using 2 - bit
-  - How many Numbers can create using 2 - bit.
-  > - 
+  - How many Numbers can create using 3 - bit ?
+  - **We can create 8 numbers using 3 - bits**
 
+| Binary | Binary |  
+|--------|--------|
+|   000  |   100  |
+|   001  |   101  | 
+|   010  |   110  |
+|   011  |   111  |  
 
-
-### **2 - Bit**
+### 🥎 2 - Bit
   We define using 2 - bit
-  - How many Numbers can create using 2 - bit.
-  - **We can create 16 numbers using 4 - bits**
+  - How many Numbers can create using 2 - bit ?
+  - **We can create 4 numbers using 2 - bits**
 
+| Binary |
+|--------|
+|   00   |
+|   01   |
+|   10   |
+|   11   |
 
-
-
-
-
+### For Recall IP - Bit
+- Using **8 - Bit = 256 Numbers**
+- Using **4 - Bit = 16 Numbers**
+- Using **3 - Bit = 8 Numbers**
+- Using **2 - Bit = 4 Numbers**
 
 
 
