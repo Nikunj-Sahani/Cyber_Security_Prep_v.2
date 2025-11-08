@@ -98,8 +98,11 @@ Each octet (8 bits) is converted from binary → decimal to form a IP address.
 - Formula : **Binary Number * 2ⁿ⁽ᵇⁱⁿᵃʳʸ ᵖᵒˢⁱᵗⁱᵒⁿ ᵛᵃˡᵘᵉ⁾**
 > - **n * 2ⁿ**
 
+
+
 ### Using 8-Bit
- - **Number - 256**
+ - **We can create 256 numbers using 8 - bits**
+ - **Example -** 1  0  1  0  0  0  0  1 
 
 | S.No. | Binary | Position | Binary to Number |
 |-------|--------|----------|------------------|
@@ -113,10 +116,6 @@ Each octet (8 bits) is converted from binary → decimal to form a IP address.
 |   8   |   0    |     7    |    0 * 2⁷ = 0    |     
 
 
-
-
-
-
 ### How can we define with Different Bit ?
 For better mindset, we differentiate the bit,
 
@@ -126,8 +125,11 @@ For better mindset, we differentiate the bit,
 
 ### **4 - Bit**
   We define using 4 - bit
-  - How many Numbers can create using 4 - bit.
-  > - 
+  - How many Numbers can create using 4 - bit ?
+  - **We can create 16 numbers using 4 - bits**
+
+
+
 
   ### **3 - Bit**
   We define using 2 - bit
@@ -139,7 +141,7 @@ For better mindset, we differentiate the bit,
 ### **2 - Bit**
   We define using 2 - bit
   - How many Numbers can create using 2 - bit.
-  > - 
+  - **We can create 16 numbers using 4 - bits**
 
 
 
