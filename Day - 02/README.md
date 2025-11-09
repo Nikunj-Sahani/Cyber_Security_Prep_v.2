@@ -135,7 +135,7 @@ For better mindset, we differentiate the bit,
 |  0010  |  0110  |  1010  |  1110  |
 |  0011  |  0111  |  1011  |  1111  |
 
-### 🥎3 - Bit
+### 🥎 3 - Bit
   We define using 2 - bit
   - How many Numbers can create using 3 - bit ?
   - **We can create 8 numbers using 3 - bits**
@@ -165,6 +165,7 @@ For better mindset, we differentiate the bit,
 - Using **3 - Bit = 8 Numbers**
 - Using **2 - Bit = 4 Numbers**
 
-
+---
+## Network Masking (Netmask of IP)
 
 
