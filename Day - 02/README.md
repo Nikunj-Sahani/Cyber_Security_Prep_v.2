@@ -168,22 +168,5 @@ For better mindset, we differentiate the bit,
 - Using **2 - Bit = 4 Numbers**
 
 ---
-## Subnet Mask
-  **Network Masking (Netmask of IP)**
-- Subnet mask is a 32-bit number used to **divide an IP network into network and host portions.**
-- It helps devices understand which part of the IP is the network and which part is the host.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
