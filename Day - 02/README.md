@@ -22,7 +22,7 @@ A MAC address is a unique hardware identifier assigned to a device’s network i
   > - IPv4
   > - IPv6
 
-## **IPv4 :** IPv4 is the 4th version of the Internet Protocol
+## 🗳️ **IPv4 :** IPv4 is the 4th version of the Internet Protocol
  - [ ] It is used to identify devices on a network.
  - [ ] It using a **32-bit address**
  - [ ] Written as **four decimal numbers** (0–255) separated by dots.
@@ -171,5 +171,27 @@ For better mindset, we differentiate the bit,
 - Using **2 - Bit = 4 Numbers**
 
 ---
+## 🗳️ IPv6
+IPv6 is the newer version of IP created to **overcome the IPv4 address shortage.**
+ - **IPv6 uses 128 bits**, offering *340 undecillion (3.4×10³⁸) addresses.*
+
+### IPv6 Address Format
+
+- [ ] It uses **128-bits IPv6 Address**
+- [ ] Written in 8 groups of 4 **hexadecimal digits**
+- [ ] 1 Group of Ip - **16 bits**
+- [ ] Separated by colons **:**
+
+> - Example :- **2001:0db8:0000:0000:0000:ff00:0042:8329**
+
+### Auto Configuration of IPv6
+No need for DHCP in many cases.
+- **It auto configure the IPv6 using SLAAC.**
+
+- The device automatically forms its IP:
+  > - Takes prefix from router
+  > - Uses MAC address or random value
+  > - Generates full 128-bit IPv6 address
+
 ---
-## IPv6
+---
