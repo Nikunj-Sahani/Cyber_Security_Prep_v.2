@@ -7,8 +7,11 @@
   
 ## IP Address : Logical Address - Assigned online 
 IP address is a unique numerical label assigned to every device connected to a network.
+
+- **Why called Logical ::** Because IP is format of Bits and made with Binary Number.
  - Addresses can be assigned dynamically via DHCP.
  - **If DHCP Failed ♻️ APIPA** assigned IP automatically in range of **169.254.0.1 to 169.254.255.254.**
+
 
 ## MAC Address : Physical Address - Assigned to Device
 A MAC address is a unique hardware identifier assigned to a device’s network interface card (NIC).
@@ -93,7 +96,7 @@ Every IPv4 address has two Parts
 | Class C - 192.50.1.1  |  N  |  N  |  N  |  H  |
 
 ---
-## Binary to Decimal - IP Bit
+### Binary to Decimal - IP Bit
 Each octet (8 bits) is converted from binary → decimal to form a IP address.
 
 - Formula : **Binary Number * 2ⁿ⁽ᵇⁱⁿᵃʳʸ ᵖᵒˢⁱᵗⁱᵒⁿ ᵛᵃˡᵘᵉ⁾**
@@ -169,4 +172,4 @@ For better mindset, we differentiate the bit,
 
 ---
 ---
-
+## IPv6
