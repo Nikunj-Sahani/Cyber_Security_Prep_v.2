@@ -7,6 +7,8 @@
   
 ## IP Address : Logical Address - Assigned online 
 IP address is a unique numerical label assigned to every device connected to a network.
+ - Addresses can be assigned dynamically via DHCP.
+ - **If DHCP Failed ♻️ APIPA** assigned IP automatically in range of **169.254.0.1 to 169.254.255.254.**
 
 ## MAC Address : Physical Address - Assigned to Device
 A MAC address is a unique hardware identifier assigned to a device’s network interface card (NIC).
@@ -166,6 +168,22 @@ For better mindset, we differentiate the bit,
 - Using **2 - Bit = 4 Numbers**
 
 ---
-## Network Masking (Netmask of IP)
+## Subnet Mask
+  **Network Masking (Netmask of IP)**
+- Subnet mask is a 32-bit number used to **divide an IP network into network and host portions.**
+- It helps devices understand which part of the IP is the network and which part is the host.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
