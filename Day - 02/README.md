@@ -166,6 +166,9 @@ For better mindset, we differentiate the bit,
 
 ### For Recall IP - Bit
 - Using **8 - Bit = 256 Numbers**
+- Using **7 - Bit = 128 Numbers**
+- Using **6 - Bit = 64 Numbers**
+- Using **5 - Bit = 32 Numbers**
 - Using **4 - Bit = 16 Numbers**
 - Using **3 - Bit = 8 Numbers**
 - Using **2 - Bit = 4 Numbers**
