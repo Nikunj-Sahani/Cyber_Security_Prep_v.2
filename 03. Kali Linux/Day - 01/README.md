@@ -126,6 +126,12 @@ Every Linux command generally follows this structure:
 | **`exit`**	              | **Closes the shell**	              |
 | `echo`	( echo $USER )    | Prints message or variable	    |
 
+#### **Copy, Move, Rename:**
+  
+  > - cp file1.txt ~/tmp/ ::- **(Copy file and pasting in tmp folder).**
+  > - mv file1.txt file2.txt ::- **( Renaming the file name).**
+  > - mv file.txt ~/path/ ::- **(Move file to folder path)**
+
 
 ### 🌐 Networking Commands
 
