@@ -35,15 +35,15 @@ Linux OS is mainly divided into **5 components:**
 ### ✔ Linux Distributions
 Different companies and communities build custom versions of Linux called distributions.
 
-| Distribution |    Based On    |          Common Use          |
-|--------------|----------------|------------------------------|
-|    Ubuntu	   |     Debian     |	User-friendly desktop/server |
-|    Debian	   |    Original    |	Stable & secure              |
-|    Fedora    |    	Red Hat    |	Developer focus              |
-|CentOS/AlmaLinux|  	Red Hat	   | Enterprise servers           |
-|  Arch Linux  |   Independent  |	Custom & advanced users      |
-|  Kali Linux	 |      Debian    |	Cybersecurity & penetration testing |
-|   Parrot OS  |     	Debian    |	Ethical hacking & digital forensics |
+|  Distribution  |    Based On    |          Common Use          |
+|----------------|----------------|------------------------------|
+|   **Ubuntu**	  |    **Debian**  |	**User-friendly desktop/server** |
+|     Debian	    |    Original    |	Stable & secure              |
+|     Fedora     |    	Red Hat    |	Developer focus              |
+|CentOS/AlmaLinux|   	Red Hat	    | Enterprise servers           |
+|   Arch Linux   |   Independent  |	Custom & advanced users      |
+| **Kali Linux**	|   **Debian**   |	**Cybersecurity & penetration testing** |
+|  **Parrot OS** |  	**Debian**   |	**Ethical hacking & digital forensics** |
 
 ### ✔ Unix Structure
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/03.%20Kali%20Linux/Images/Linux.png" alt="Sample Image" width="800" height="1000"></div>
@@ -175,22 +175,22 @@ Every Linux command generally follows this structure:
 | Directory | Full Name           | Purpose                                  |
 | --------- | ------------------- | ---------------------------------------- |
 | `/`       | Root                | Top of file system (starting point)      |
-| `/home`   | Home Directory      | Personal files of users                  |
-| `/root`   | Root User’s Home    | Superuser’s private folder               |
+| **`/home`**   | **Home Directory**      | **Personal files of users**                  |
+| **`/root`**   | **Root User’s Home**    | **Superuser’s private folder**               |
 | `/bin`    | Binary              | Basic commands (ls, cp, mv, cat)         |
 | `/sbin`   | System Binary       | System admin commands (ifconfig, reboot) |
-| `/etc`    | Configuration Files | System config files, network, services   |
-| `/var`    | Variable Files      | Logs, spool files, cache                 |
+| **`/etc`**    | **Configuration Files** | System config files, network, services   |
+| **`/var`**    | **Variable Files**      | **Logs, spool files, cache**                 |
 | `/usr`    | User Programs       | Installed software, libraries            |
 | `/tmp`    | Temporary           | Temporary files (auto delete)            |
-| `/lib`    | Libraries           | Shared libraries for system              |
+| **`/lib`**    | **Libraries**           | **Shared libraries for system**              |
 | `/dev`    | Devices             | Hardware as files (USB, HDD, etc.)       |
 | `/media`  | Removable Media     | Auto mount USB/CD                        |
 | `/mnt`    | Mount               | Manual mount point for drives            |
 | `/opt`    | Optional            | Optional or 3rd party software           |
-| `/boot`   | Boot Files          | GRUB, kernel for system startup          |
+| **`/boot`**   | **Boot Files**          | **GRUB, kernel for system startup**          |
 | `/proc`   | Process Files       | Virtual directory – system processes     |
-| `/sys`    | System Info         | Hardware & kernel info                   |
+| **`/sys`**    | **System Info**         | **Hardware & kernel info**                   |
 
 ### 🧠 Quick Memory Tricks:
 
@@ -232,10 +232,90 @@ Explore Linux shell, file structure, and commands.
 > - **15.**	rm renamed.txt
 
 ## Important Tips for Beginners
- - Use Tab for auto-completion
- - Use ↑ / ↓ arrows to navigate previous commands
- - Use Ctrl + C to stop a running process
- - Use Ctrl + D to log out or end input
- - Explore man pages often
+ - Use **Tab** for auto-completion
+ - Use **↑ / ↓** arrows to navigate previous commands
+ - Use **Ctrl + C** to stop a running process
+ - Use **Ctrl + D** to log out or end input
+ - Explore **man** pages often
 
-### 
+### 🧠 Linux Basics Quiz
+#### ✔ Multiple Choice Questions (MCQ)
+
+1️⃣ **Linux kernel was first developed by:**
+- A) Bill Gates
+- B) Linus Torvalds
+- C) Dennis Ritchie
+- D) Richard Stallman
+
+2️⃣ **The default shell in Kali Linux is:**
+- A) Bash
+- B) Zsh
+- C) Fish
+- D) Sh
+
+3️⃣ **Which directory contains user personal files?**
+- A) /etc
+- B) /home
+- C) /bin
+- D) /var
+
+4️⃣ **Which command shows current working directory?**
+- A) ls
+- B) pwd
+- C) cd
+- D) home
+
+5️⃣ **/bin directory stores:**
+- A) Log files
+- B) Device files
+- C) Basic system commands
+- D) User directories
+
+6️⃣ **To see network IP configuration:**
+- A) ip a
+- B) ls
+- C) mkdir
+- D) uname
+
+7️⃣ **rm -r foldername does what?**
+- A) Remove only empty directory
+- B) Remove directory with all contents
+- C) Rename directory
+- D) Create directory
+
+8️⃣ **Ctrl + Alt + F2 opens:**
+- A) BIOS settings
+- B) Terminal GUI
+- C) TTY (Text-mode terminal)
+- D) File Explorer
+
+9️⃣ **Which directory stores boot loader files?**
+- A) /boot
+- B) /var
+- C) /usr
+- D) /dev
+
+🔟 **Which command shows manual/help pages?**
+- A) help
+- B) info
+- C) man
+- D) doc
+
+#### ✍ Short Questions (Try to answer yourself)
+
+- [ ] What is the difference between Shell and Terminal?
+- [ ] Write the Linux command syntax format.
+- [ ] What is the role of /etc directory?
+- [ ] What does cd .. do?
+- [ ] Expand: TTY
+
+#### ☑ BONUS (If you want extra challenge)
+Write commands for:
+
+- [ ] Create a folder named test
+- [ ] Create a file inside it named notes.txt
+- [ ] Display content of the file
+- [ ] Delete folder along with file
+
+---
+---
