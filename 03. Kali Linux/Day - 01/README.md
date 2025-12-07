@@ -45,8 +45,46 @@ Different companies and communities build custom versions of Linux called distri
 |  Kali Linux	 |      Debian    |	Cybersecurity & penetration testing |
 |   Parrot OS  |     	Debian    |	Ethical hacking & digital forensics |
 
-### Unix Structure
+### ✔ Unix Structure
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/03.%20Kali%20Linux/Images/Linux.png" alt="Sample Image" width="800" height="1000"></div>
 
+---
+## 🎪 Kali Linux 🎪
+---
+### ⚓ Shell
+The shell is the command interpreter that **takes input and executes it.**
+It communicates between user and kernel.
+
+> - 📌 **Default Shell in Kali Linux → Zsh (Z Shell)**
+> - (*Previously Bash was the default shell*)
+
+### ⚓ Terminal
+A terminal is a CLI environment (Command Line Interface). It allows users to *run commands and interact with the OS.*
+
+> - 📌 In Kali Linux → Default Terminal is **GNOME Terminal** (or XTerm in other desktops).
+
+---
+- 🎈 **Terminal :-**	Window that displays input/output.
+- 🎈 **Shell :-**	Interpreter that executes commands.
+
+#### Shortcut to Open Terminal
+ - [ ] Ctrl + Alt + T (on Desktop)
+ - [ ] Ctrl + Alt + F2 (Through a TTY - TeleType Terminal).
+       
+   > - 🧠 **What is TTY?**
+   > - It is a text-only virtual console
+   > - Works without GUI (no Desktop environment needed
+
+### 🐧 Common Shells in Kali Linux:
+
+| Shell | 	  Description   |
+|-------|-------------------|
+|  **Zsh**  |	**Default in Kali**, advanced and customizable |
+| Bash	 | **(Bourne Again Shell)**, Most common Linux shell, widely used |
+| Fish	 | User-friendly with auto-suggestions |
+|  Sh   |	Basic shell (Bourne shell) |
+
+---
 
 
 
