@@ -85,8 +85,157 @@ A terminal is a CLI environment (Command Line Interface). It allows users to *ru
 |  Sh   |	Basic shell (Bourne shell) |
 
 ---
+## 🎏 Linux Command Syntax
+Every Linux command generally follows this structure:
+  - [ ] **command  [options]  [arguments]**
+
+   > - **command -** The action you want to perform.
+   > - **options -** Modify how the command works.
+   > - **arguments -** The file, directory, or target to apply the action on.
+
+- Example: **ls -l /home**
+  
+  > - **ls →** Command
+  > - **-l →** Option (long listing format)
+  > - **/home →** Argument (target directory)
+
+## 🎏 Basic Linux Commands
+
+### 📂 File & Directory Commands
+
+| Command                  | Description                     |
+| ------------------------ | ------------------------------- |
+| **`ls`**                 | **List files in current directory** |
+| `ls -la`                 | List all files with details     |
+| `pwd`                    | Show current working directory  |
+| **`cd foldername`**      | **Change directory**                |
+| `cd ..`                  | Go back to previous directory   |
+| **`mkdir folder`**       | **Create a new folder**             |
+| `rmdir folder`           | Remove empty folder             |
+| **`rm file`**            | **Delete file**                     |
+| `rm -r folder`           | Delete folder with content      |
+| **`cp source dest`**     | **Copy file/folder**                |
+| `mv source dest`         | Move/rename file/folder         |
+| `touch file.txt`         | Create empty file               |
+| **`cat file.txt`**       | **View file content**               |
+| **`nano file.txt`**      | **Open file in nano editor**        |
+| `echo "text" > file.txt` | Create file with text           |
+| **`clear`**              | **Clears the terminal screen**     |
+| `man`                    |	Displays command manual        |
+| `history`	               | Shows command history          |	
+| **`exit`**	              | **Closes the shell**	              |
+| `echo`	( echo $USER )    | Prints message or variable	    |
 
 
+### 🌐 Networking Commands
 
+| Command                 | Description              |
+| ------------------------| ------------------------ |
+| **`ifconfig` / `ip a`** | **Show IP address**          |
+| **`ping website.com`**  | **Test connectivity**        |
+| `netstat -tulnp`    | Show open ports          |
+| `curl URL`          | Download webpage         |
+| `ssh user@ip`       | Connect to remote system |
 
+### 🧠 System Information
 
+| Command    | Description         |
+| ---------- | ------------------- |
+| `uname -a` | System info         |
+| `hostname` | Show system name    |
+| `df -h`    | Disk usage          |
+| `free -h`  | Memory usage        |
+| `top`      | Active processes    |
+| `uptime`   | System running time |
+| `date`     | Show date & time    |
+
+### 👤 User & Permission Commands
+
+| Command                 | Description              |
+| ----------------------- | ------------------------ |
+| **`whoami`**            | **Show current user**    |
+| `id`                    | User + group information |
+| **`chmod 755 file`**    | **Change file permission**  |
+| `chown user:group file` | Change ownership         |
+| **`passwd`**            | **Change user password** |
+
+### 📦 Package Management (Debian/Kali/Ubuntu)
+
+| Command                    | Description          |
+| -------------------------- | -------------------- |
+| **`sudo apt update`**          | Update package lists |
+| **`sudo apt upgrade`**         | Install new updates  |
+| **`sudo apt install pkgname`** | Install software     |
+| `sudo apt remove pkgname`  | Remove software      |
+
+---
+## 🗂️ Linux File System Hierarchy
+📌 Everything in Linux starts from the root directory /. All files, folders, devices → inside / (slace)
+
+| Directory | Full Name           | Purpose                                  |
+| --------- | ------------------- | ---------------------------------------- |
+| `/`       | Root                | Top of file system (starting point)      |
+| `/home`   | Home Directory      | Personal files of users                  |
+| `/root`   | Root User’s Home    | Superuser’s private folder               |
+| `/bin`    | Binary              | Basic commands (ls, cp, mv, cat)         |
+| `/sbin`   | System Binary       | System admin commands (ifconfig, reboot) |
+| `/etc`    | Configuration Files | System config files, network, services   |
+| `/var`    | Variable Files      | Logs, spool files, cache                 |
+| `/usr`    | User Programs       | Installed software, libraries            |
+| `/tmp`    | Temporary           | Temporary files (auto delete)            |
+| `/lib`    | Libraries           | Shared libraries for system              |
+| `/dev`    | Devices             | Hardware as files (USB, HDD, etc.)       |
+| `/media`  | Removable Media     | Auto mount USB/CD                        |
+| `/mnt`    | Mount               | Manual mount point for drives            |
+| `/opt`    | Optional            | Optional or 3rd party software           |
+| `/boot`   | Boot Files          | GRUB, kernel for system startup          |
+| `/proc`   | Process Files       | Virtual directory – system processes     |
+| `/sys`    | System Info         | Hardware & kernel info                   |
+
+### 🧠 Quick Memory Tricks:
+
+- **/home =** Users' personal files
+- **/etc =** All system configurations
+- **/bin + /sbin =** Commands
+- **/root =** Admin’s private home
+- **/var/log =** Very important logs
+- **/tmp =** Temporary workspace
+
+#### 📌 Example Path:
+- [ ] **/home/user/Documents/file.txt**
+      
+  > - / root → system start
+  > - /home → user directory
+  > - /user → account name
+  > - /Documents → user folder
+  > - file.txt → file
+
+---
+# Practice : Basic Commands
+Explore Linux shell, file structure, and commands.
+- **Tasks to do in Kali Linux Terminal :** Run Commands and check it.
+
+> - **1.**	Display your username and working directory
+> - **2.**	whoami
+> - **3.**	pwd
+> - **4.**	Create a folder Practice and navigate into it
+> - **5.**	mkdir Practice && cd Practice
+> - **6.**	Create a new file named info.txt
+> - **7.**	touch info.txt
+> - **8.**	Add text and view it
+> - **9.**	echo "Linux is powerful!" > info.txt
+> - **10.**	cat info.txt
+> - **11.**	Copy and rename files
+> - **12.**	cp info.txt copy.txt
+> - **13.**	mv copy.txt renamed.txt
+> - **14.**	Remove the renamed file
+> - **15.**	rm renamed.txt
+
+## Important Tips for Beginners
+ - Use Tab for auto-completion
+ - Use ↑ / ↓ arrows to navigate previous commands
+ - Use Ctrl + C to stop a running process
+ - Use Ctrl + D to log out or end input
+ - Explore man pages often
+
+### 
