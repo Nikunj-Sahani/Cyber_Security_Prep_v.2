@@ -222,20 +222,11 @@ Explore Linux shell, file structure, and commands.
 - **Tasks to do in Kali Linux Terminal :** Run Commands and check it.
 
 > - **1.**	Display your username and working directory
-> - **2.**	whoami
-> - **3.**	pwd
-> - **4.**	Create a folder Practice and navigate into it
-> - **5.**	mkdir Practice && cd Practice
-> - **6.**	Create a new file named info.txt
-> - **7.**	touch info.txt
-> - **8.**	Add text and view it
-> - **9.**	echo "Linux is powerful!" > info.txt
-> - **10.**	cat info.txt
-> - **11.**	Copy and rename files
-> - **12.**	cp info.txt copy.txt
-> - **13.**	mv copy.txt renamed.txt
-> - **14.**	Remove the renamed file
-> - **15.**	rm renamed.txt
+> - **2.**	Create a folder Practice and navigate into it in a line.
+> - **3.**	Create a new file named info.txt
+> - **4.**	Add text and view in info.txt
+> - **5.**	Copy and rename files
+> - **6.**	Remove the renamed file
 
 ## Important Tips for Beginners
  - Use **Tab** for auto-completion
