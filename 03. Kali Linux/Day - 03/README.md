@@ -43,6 +43,7 @@ In Linux, the entire storage structure is organized like a single tree, with the
 |  cd ~     |   To your home            |
 |  cd -     | Back to previous location |
 
+---
 ### 👉 Creating and Managing Directories
 
 #### 🖊️ Make Directory - mkdir
@@ -66,7 +67,8 @@ In Linux, the entire storage structure is organized like a single tree, with the
 - **rmdir – Remove Empty Directories**
 
    > - rmdir directory_name - *Works only if the directory is empty.*
-
+  
+---
 ### 👉 File Creation and Manipulation
 
 #### 🖊️ Create Files or Copy or Move
@@ -116,13 +118,24 @@ In Linux, the entire storage structure is organized like a single tree, with the
 
 - [ ] Note - **(ignore errors by redirecting them to /dev/null).**
 
-> - find /var/log -size +50M
-> - find . -mtime -7
+> - find /var/log -size +50M - *Search inside /var/log for files larger than 50 MB.*
+> - find . -mtime -7 - *Find files in current directory (.) that were modified within the last 7 days.*
 
 - **locate – Search Using Database**
 
- > - sudo updatedb
->  - locate shadow
+ > - sudo updatedb - **Updates the locate database**
+ > - locate shadow - **/etc/shadow (where encrypted passwords are stored)**
 
+---
+### 👉 Archiving and Compression
 
+| **Tool**        | **Create**                     | **Extract**                       | **Notes**                              |
+| --------------- | ------------------------------ | --------------------------------- | -------------------------------------- |
+| **tar**         | `tar -cvf backup.tar dir/`     | `tar -xvf backup.tar`             | Creates archives only (no compression) |
+| **gzip**        | `gzip file`                    | `gunzip file.gz`                  | Compresses **single files** only       |
+| **tar + gzip**  | `tar -czvf backup.tar.gz dir/` | `tar -xzvf backup.tar.gz`         | Most common compressed archive format  |
+| **zip / unzip** | `zip -r archive.zip dir/`      | `unzip archive.zip`               | Windows-friendly, widely used          |
+| **bzip2 / xz**  | `bzip2 file` `xz file`         | `bunzip2 file.bz2` `unxz file.xz` | High compression ratios (but slower)   |
+
+ 
 
