@@ -108,16 +108,21 @@ In Linux, the entire storage structure is organized like a single tree, with the
   > - **-n** show line numbers
   > - **-v** invert match
 
-find – Search Files by Criteria
-find /home -type f -name "*.sh" 2> /dev/null
-find /home -type f –size +50M  2> /dev/null
-find /home –type f –perm u=w 2>/dev/null
+- **Search Files by Criteria - find**
 
-find /var/log -size +50M
-find . -mtime -7
-locate – Search Using Database
-sudo updatedb
-locate shadow
+> - find /home -type f -name "*.sh" 2> /dev/null - **Search in /home for all files (-type f) whose name ends with .sh**
+> - find /home -type f –size +50M  2> /dev/null - **Search for files in /home that are larger than 50 MB**
+> - find /home –type f –perm u=w 2>/dev/null - **ind files in /home where the user (owner) has write permission.**
+
+- [ ] Note - **(ignore errors by redirecting them to /dev/null).**
+
+> - find /var/log -size +50M
+> - find . -mtime -7
+
+- **locate – Search Using Database**
+
+ > - sudo updatedb
+>  - locate shadow
 
 
 
