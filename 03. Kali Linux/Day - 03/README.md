@@ -184,17 +184,107 @@ Each file has three sets of permissions:
 
 #### 🖊️ To change both user or group in a command
 - chown user:group file.txt
-
+- chown -R user:group directory_name – **change ownership recursively**
+---
 ### 👉 File Ownership and Access Control
+To create a new user and managing.
 
-useradd / userdel / passwd – create and manage users
-sudo useradd <username>      --    Add a new user.  
-sudo userdel <username>         ----    Delete a user.
-sudo passwd <username>         ----  Set password for user.
-•	groups / id – show group membership  
-groups <username>     ---               See groups of a user.
-id <username>              ---              See user ID + group ID + groups
-•	sudoers – /etc/sudoers defines admin access
-•	chown -R user:group directory – change ownership recursively
+- 🖊️ **Create and manage users**
+
+|  command	|     Works    |
+|-----------|--------------|
+|  useradd  | To add user  |
+|  userdel  | To delete user  |
+|  passwd   | to set password |
+
+**Example :-**
+ > - sudo useradd <username> **- Add a new user.**
+ > - sudo userdel <username>  **- Delete a user.**
+ > - sudo passwd <username>  **- Set password for user.**
+
+- 🖊️ **Show group membership**  
+
+  > - groups <username> **- See groups of a user.**
+  > - id <username>  **- See user ID + group ID + groups**
+
+- [ ] **sudoers –** /etc/sudoers defines admin access.
+
+---
+### 👉 System Information Commands
+🖥 System Information & Monitoring Commands (Linux)
+
+|   Command   |       Function                             |   Example                        |
+| ----------- | ------------------------------------------ | -------------------------------- |
+| **uname -a**    | **Show full kernel & system info**             | `uname -r` (kernel version only) |
+| hostnamectl | View or set hostname                       | `hostnamectl set-hostname lab1`  |
+| **uptime**      | **Show system running time & load average**    | `uptime`                         |
+| df -h       | Disk usage per filesystem (human readable) | `df -h /`                        |
+| du -sh *    | Show folder sizes in current directory     | `du -sh /var/*`                  |
+| free -h     | Show memory & swap usage                   | `free -h`                        |
+| **top / htop**  | **Real-time process monitoring**               | `htop`                           |
 
 
+### 👉 Networking Essentials
+
+> - ping -c 4 google.com - **To check network is working.**
+> - ip addr show - **To check IP address**
+
+- netstat → shows network connections
+- **netstat -anp | grep ssh**
+  
+   > - **-a →** show all ports
+   > - **-n →** show port numbers (don’t convert names)
+   > - **-p →** show which process is using the port
+   > - **grep ssh →** filter the output and show only lines that contain ssh
+
+---
+### 👉 Redirection and Pipes (Linux)
+
+| **Symbol** | **Meaning**                      | **Example**               |
+| ---------- | -------------------------------- | ------------------------- |
+| `>`        | Redirect output (overwrite file) | **`ls > list.txt`**           |
+| `>>`       | Append output to file            | **`echo "end" >> file.txt`**  |
+| `<`        | Take input from file             | **`sort < names.txt`**        |
+| `Pipe Symbol`  | Pipe output to another command | `ls pipe symbol grep txt`          |
+
+---
+### 👉 Quick Cheat Sheet
+
+|      Command          |       Function                          |
+| --------------------- | --------------------------------------- |
+| **ls -a**             |  List hidden files	                    |
+| **file filename**     |  Show file type	                        |
+|  **wc -l filename**   |  Count lines in file                    |
+|  **diff file1 file2** |  Compare two files                      |
+|  **ln file1 file2**   |   Create hard link                      |
+|  **ln -s file1 linkname** |  Create symbolic link               |
+|  **ls -l**                |  View permissions                   |
+|  **df -h**                |  Check disk usage                   |
+|  **grep "ERROR" /var/log/syslog** |  Search pattern in logs     |
+
+---
+### 🔄 Hands-On Lab – File Management
+
+1.	Create /home/student/practice
+2.	Inside it, create file1, file2, file3
+3.	Combine them → cat file1 file2 file3 > final.txt
+4.	Copy final.txt to /tmp/backup/
+5.	Compress it → tar -czvf backup.tar.gz /tmp/backup/
+6.	Change permissions to execute only for owner → chmod 700 backup.tar.gz
+7.	Remove temporary directory after verification.
+
+### 🔄 Pro Tips
+- Use alias for frequent commands → alias ll='ls -lAh'
+- Press Tab to auto-complete paths
+- Use Ctrl + R to search command history
+- Use sudo !! to rerun last command as root
+- Avoid using root account directly—use sudo
+
+### ✅ Quiz – Chapter 2
+1.	What does ls -l display?
+2.	Difference between rm and rmdir?
+3.	How to view the last 20 lines of a log file?
+4.	Which command changes file ownership?
+5.	How to find all .sh files modified in last 2 days?
+
+---
