@@ -185,5 +185,16 @@ Each file has three sets of permissions:
 #### 🖊️ To change both user or group in a command
 - chown user:group file.txt
 
+### 👉 File Ownership and Access Control
+
+useradd / userdel / passwd – create and manage users
+sudo useradd <username>      --    Add a new user.  
+sudo userdel <username>         ----    Delete a user.
+sudo passwd <username>         ----  Set password for user.
+•	groups / id – show group membership  
+groups <username>     ---               See groups of a user.
+id <username>              ---              See user ID + group ID + groups
+•	sudoers – /etc/sudoers defines admin access
+•	chown -R user:group directory – change ownership recursively
 
 
