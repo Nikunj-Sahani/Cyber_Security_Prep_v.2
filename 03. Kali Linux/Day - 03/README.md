@@ -135,10 +135,55 @@ In Linux, the entire storage structure is organized like a single tree, with the
 | **gzip**        | gzip file                    | `gunzip file.gz`                  | *Compresses **single files** only*       |
 | **tar + gzip**  | tar -czvf backup.tar.gz dir/ | `tar -xzvf backup.tar.gz`         | *Most common compressed archive format*  |
 | **zip / unzip** | zip -r archive.zip dir/      | `unzip archive.zip`               | *Windows-friendly, widely used*          |
-| **bzip2 / xz**  | bzip2 file` `xz file         | `bunzip2 file.bz2` `unxz file.xz` | *High compression ratios (but slower)*   |
+| **bzip2 / xz**  | bzip2 file xz file         | `bunzip2 file.bz2` `unxz file.xz` | *High compression ratios (but slower)*   |
 
- 
+---
+### 👉 Permissions and Ownership Basics
+Each file has three sets of permissions:
 
+- **Owner (u), Group (g), Others (o) —** *each with Read (r), Write (w), Execute (x).*
+
+#### 🖊️ To check file or folder permission.
+  > - **ls -l**
+
+#### 🖊️ To give permission to file
+- chmod 755 file_name
+- chmod u+x file.sh
+
+#### 🖊️ How the Permission value Works
+- ✔️ **1st method by Numerical**
+  
+| Permission	| Value | Sign |
+|-------------|-------|------|
+|    Read	    |   4   |   r  |
+|    Write    | 	2   |   w  |
+|   Execute   |  	1   |   x  |
+
+- **Example -** *chmod 754 file,* You have to add the value to give permission.
+     > - **Owner (rwx) = 7**
+     > - **Group (r-x) = 5**
+     > - **Others (r--) = 4**
+
+- ✔️ **2nd method by Letters**
+
+|   Owner	  |  Sign |  Permissions |
+|-----------|-------|--------------|
+|   User	  | **u** |  Read ( r )  |
+|   Group   | **g** |  Write ( w )  |
+|   Others  | **o** | Execute ( x ) |
+
+- **Example -**
+
+  > - chmod u+r file_name **- give read(r) permission to user(u)**
+  > - chmod g+w file_name **- give write(w) permission to group(g)**
+  > - chmod o+rwx file_name **- give read, write, execute to others(o)**
+
+#### 🖊️ To change owner or group of file
+- chown owner_name file_name
+- chgrp group_name file_name
+
+#### 🖊️ To change both user or group in a command
+- chown user:group file.txt
 
 
 
