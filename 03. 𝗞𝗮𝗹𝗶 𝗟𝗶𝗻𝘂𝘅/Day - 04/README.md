@@ -169,6 +169,15 @@ Change the owner of a file.
    > - chown user:group file.txt
    > - chown -R user:group directory_name – **change ownership recursively**
 
+---
 ### ♟️ Special Permissions
 Sometimes, standard rwx isn’t enough — we use **special bits.**
+
+| **Type**                | **Symbol**    | **Purpose**                                                        |
+| ----------------------- | ------------- | ------------------------------------------------------------------ |
+| **SUID (Set User ID)**  | `s` on owner  | Execute file with **file owner’s privileges**                      |
+| **SGID (Set Group ID)** | `s` on group  | Execute file with **group owner’s privileges**                     |
+| **Sticky Bit**          | `t` on others | Protect shared directories (users can delete only their own files) |
+
+
 
