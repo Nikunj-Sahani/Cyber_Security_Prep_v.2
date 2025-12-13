@@ -82,7 +82,7 @@ System users are automatically created during Linux installation.
      > - **gpasswd -** To delete user from group
 
 ---
-### Understanding File Ownership
+### 📌 Understanding File Ownership
 In Linux, every file and directory is owned by: **User & Group.** Ownership decides who can read, write, or execute the file.
 
 - 🎲 **Each Linux file has 3 Things :-**
@@ -108,4 +108,67 @@ In Linux, every file and directory is owned by: **User & Group.** Ownership deci
   
     > - username → **Owner**
     > - groupname → **Group**
+
+---
+### 🖥 File Permissions Explained
+I'm explaining this again to more understand.
+
+- 🖊️ **To check file or folder permission.**
+  > - ls -l
+
+- 🖊️ **To give permission to file**
+   > - chmod 755 file_name = *Numerical Method*
+   > - chmod u+x file.sh = *Character Method*
+
+### 🖊️ How the Permission value Works
+- ✔️ **1st method by Numerical**
+  
+| Permission	| Value | Sign |
+|-------------|-------|------|
+|    Read	    |   4   |   r  |
+|    Write    |  	2   |   w  |
+|   Execute   |  	1   |   x  |
+
+- **Example -** You have to add the value to give permission.
+ 1.  > - *chmod 754 file,* 
+     > - **Owner (rwx) = 7**
+     > - **Group (r-x) = 5**
+     > - **Others (r--) = 4**
+
+ 2.  > - *chmod 524 file.txt*
+     > - **Owner (r-x) = 5**
+     > - **Group (-w-) = 2**
+     > - **Others (r--) = 4**
+ 
+- ✔️ **2nd method by Letters**
+
+|   Owner	  |  Sign |  Permissions |
+|-----------|-------|--------------|
+|   User	   | **u** |  Read ( r )  |
+|   Group   | **g** |  Write ( w )  |
+|   Others  | **o** | Execute ( x ) |
+| u , g , o | **a** | a means all |
+
+- **Example -**
+
+  > - chmod u+r file_name **- give read(r) permission to user(u)**
+  > - chmod g+w file_name **- give write(w) permission to group(g)**
+  > - chmod o+rwx file_name **- give read, write, execute to others(o)**
+
+  > - chmod a+rwx file_name **- give permission to all.**
+
+---
+### 📌 Changing Ownership and Groups
+Change the owner of a file.
+
+- 🖊️ **To change owner or group of file**
+   > - chown owner_name file_name
+   > - chgrp group_name file_name
+
+- 🖊️ **To change both user or group in a command**
+   > - chown user:group file.txt
+   > - chown -R user:group directory_name – **change ownership recursively**
+
+### ♟️ Special Permissions
+Sometimes, standard rwx isn’t enough — we use **special bits.**
 
