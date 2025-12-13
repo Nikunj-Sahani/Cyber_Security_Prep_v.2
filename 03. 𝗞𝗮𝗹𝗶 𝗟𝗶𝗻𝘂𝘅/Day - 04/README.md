@@ -83,7 +83,29 @@ System users are automatically created during Linux installation.
 
 ---
 ### Understanding File Ownership
+In Linux, every file and directory is owned by: **User & Group.** Ownership decides who can read, write, or execute the file.
 
+- 🎲 **Each Linux file has 3 Things :-**
 
+  > - **Owner (User)**
+  > - **Group**
+  > - **Permissions (rwx)**
 
+- ♦️ *For Example:*
+   > - **Create a file -** file.txt
+   > - **Check permission -** ls -l file.txt
+   
+     > - **-rw-r-xr-- 1 username groupname 1024 Nov 13 12:15 file.txt**
+
+- 🎲 **Understand Permission of file**
+
+  > - rw-r-xr-- 1 username groupname 1024 Nov 13 12:15 file.txt
+
+   > - ♦️ **Part of permission -**
+   > - **rw- :-** owner (read , write)
+   > - **r-x :-** group (read , execute)
+   > - **r-- :-** others (read)
+  
+    > - username → **Owner**
+    > - groupname → **Group**
 
