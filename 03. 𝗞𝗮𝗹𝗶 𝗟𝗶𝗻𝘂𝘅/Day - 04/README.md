@@ -57,17 +57,17 @@ System users are automatically created during Linux installation.
      > - **bash :-** Shell (like sh , zsh)
 
 - 🕹️ **Modify User**
-   > - sudo usermod -aG sudo username   →---------→    # Add user to sudo group
-   > - sudo usermod -d /data username   →----------→   # Change home directory of username
-   > - sudo usermod -l newname username  →------→  # Rename user
+   > - sudo usermod -aG sudo username   →---------→    # **Add user to sudo group**
+   > - sudo usermod -d /data username   →----------→   # **Change home directory of username**
+   > - sudo usermod -l newname username  →------→  # **Rename user**
 
      > - **-aG :-** Append Group (Add to group)
      > - **-d :-** Directory
      > - **-l :-** Login to new name
   
 - 🕹️ **Delete Userid**
-  > - sudo userdel useranme          # Delete the user
-  > - sudo userdel -r username             # Remove user + home directory
+  > - sudo userdel useranme          # **Delete the user**
+  > - sudo userdel -r username             # **Remove user + home directory**
 
     > - **-r :-** Recursive (Delete all)
 
@@ -201,15 +201,52 @@ It also have 2 methods (Numerical and Character)
     > - -rwsr-xr-x 1 root root 44168 ping *(Notice the **s** — that’s SUID.)*
 
 ### 🖥 Sudo and Privilege Escalation
-Grant Temporary Root Privileges
-sudo command
-Allow User to Run All Commands as Root
-Add to sudoers:
-sudo usermod -aG sudo akash
-Or manually edit:
-sudo visudo
-Add:
-akash ALL=(ALL:ALL) ALL
-Run Last Command with Sudo
-sudo !!
 
+- 🎲 **Grant Temporary Root Privileges**
+   > - sudo Your_command
+
+- 🎲 **Allow User to Run All Commands as Root**
+   > - *Add to sudoers:*
+   > - sudo usermod -aG sudo username
+
+- 🎲 **Manually edit:**
+   > - sudo visudo
+   > - Add this line :- username ALL=(ALL:ALL) ALL
+   > - Now Run your Command with Sudo
+   > - **sudo !!**
+
+### 🖥 System Security Tips for Admins
+
+   > - ✅ **Never use the root account for daily work**
+   > - ✅ Use sudo instead of direct root login
+   > - ✅ Lock inactive users: **sudo usermod -L username**
+   > - ✅ Set password expiry policy: **sudo chage -M 90 username**
+
+- ✅ **View last login info:**
+
+   > - lastlog
+   > - last -n 5
+
+---
+---
+## Hands-On Lab – User and Permission Management
+Goal: Manage users, groups, and permissions securely.
+
+- **Tasks to practice:**
+
+1.	Create user student1 and group students
+2.	sudo useradd -m student1
+3.	sudo groupadd students
+4.	sudo usermod -aG students student1
+5.	Create shared folder /data/students
+6.	sudo mkdir -p /data/students
+7.	sudo chown root:students /data/students
+8.	sudo chmod 2770 /data/students
+
+### Quiz – Questions
+
+1.	What’s the difference between chmod 755 and chmod 700?
+2.	How do you set file ownership to root:admins?
+3.	What is the effect of a sticky bit on /tmp?
+4.	Which file defines sudo permissions?
+5.	How do you list ACL permissions of a file?
