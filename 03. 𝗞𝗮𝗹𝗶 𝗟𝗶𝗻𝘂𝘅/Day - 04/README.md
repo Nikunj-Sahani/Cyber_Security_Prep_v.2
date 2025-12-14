@@ -179,5 +179,37 @@ Sometimes, standard rwx isn’t enough — we use **special bits.**
 | **SGID (Set Group ID)** | `s` on group  | Execute file with **group owner’s privileges**                     |
 | **Sticky Bit**          | `t` on others | Protect shared directories (users can delete only their own files) |
 
+#### 📌 **How to set Special Permission**
+It also have 2 methods (Numerical and Character)
 
+- **🔢 Special Permissions – Numeric Values (Linux)**
+
+| Permission |     Result          |      Command        |
+|----------- | ------------------- |------------------- |
+|  **4**     |  Set **SUID**       | `chmod 4755 file`  |
+|  **2**     |  Set **SGID**       | `chmod 2755 file`  |
+|  **1**     |  Set **Sticky Bit** | `chmod 1777 dir`   |
+
+- **Examples =**
+
+  > - chmod 4755 /bin/ping ----- # *set user id on ping directory.*
+  > - chmod 2755 /shared  ------ # *Set group id on shared folder.*
+  > - chmod 1777 file.txt  -------  # *Sticky Bit on file.txt*
+
+  > - **Verify Special Bits:**
+    > - ls -l /bin/ping
+    > - -rwsr-xr-x 1 root root 44168 ping *(Notice the **s** — that’s SUID.)*
+
+### 🖥 Sudo and Privilege Escalation
+Grant Temporary Root Privileges
+sudo command
+Allow User to Run All Commands as Root
+Add to sudoers:
+sudo usermod -aG sudo akash
+Or manually edit:
+sudo visudo
+Add:
+akash ALL=(ALL:ALL) ALL
+Run Last Command with Sudo
+sudo !!
 
