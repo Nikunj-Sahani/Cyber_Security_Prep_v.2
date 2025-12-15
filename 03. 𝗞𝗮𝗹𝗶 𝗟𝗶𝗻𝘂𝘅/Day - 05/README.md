@@ -66,3 +66,37 @@ adding pic
 
 ---
 ## 🎗️ Managing Processes
+
+- ❌ **Kill or Stop a Process**
+
+| **Command**         | **Purpose**                     | **Example**       |
+| ------------------- | ------------------------------- | ----------------- |
+| `kill <PID>`        | Graceful stop (SIGTERM)         | `kill 1234`       |
+| `kill -9 <PID>`     | Force kill (SIGKILL)            | `kill -9 1234`    |
+| `killall <process>` | Kill all instances of a process | `killall firefox` |
+
+   > - **Use kill first to stop the process.**
+   > - **-9 only if the process doesn’t stop.**
+
+- 📵 **Set Process Priority - nice & renice**
+
+   > - nice -n 10 command  -----  # **Start with lower priority**
+   > - renice 5 -p 1234  -------   # **Change existing process priority**
+
+- 🔄 **Background and Foreground - bg / fg**
+
+| **Command**    | **Purpose**                | **Example**    |
+| -------------- | -------------------------- | -------------- |
+| `sleep 1000 &` | Run command in background  | `sleep 1000 &` |
+| `jobs`         | List background jobs       | `jobs`         |
+| `fg %1`        | Bring job 1 to foreground  | `fg %1`        |
+| `bg %1`        | Resume job 1 in background | `bg %1`        |
+
+### 🔐 nohup – Run Process Immune to Logout
+
+| **Command** | **Purpose**                             | **Example**                 |
+| ----------- | --------------------------------------- | --------------------------- |
+| `nohup`     | Run process that continues after logout | `nohup python3 script.py &` |
+
+> - 👉 **Output is saved to nohup.out by default.**
+
