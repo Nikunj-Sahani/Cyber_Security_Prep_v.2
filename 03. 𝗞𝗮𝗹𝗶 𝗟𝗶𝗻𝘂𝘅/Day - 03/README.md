@@ -1,4 +1,4 @@
-<h1 align="center">💻 Day 3 🔄</h1>
+<h1 align="center">📒 Day 03 📒</h1>
 <h2 align="center">📁 Linux File System 📁</h2>
 
 ---
