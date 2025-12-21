@@ -209,14 +209,72 @@ Logs are critical for troubleshooting and auditing. **Linux stores logs mainly u
 ---
 ### 🖥️ System Information and Diagnostics
 
-hostnamectl	View/Change hostname
-lsblk	List block devices
-lscpu	Display CPU information
-lsusb	List USB devices
-lspci	List PCI devices
-uptime	Show system uptime
-who -a	Show logged-in users
-w	Show active users
-sar	Performance monitoring (sysstat package)
+> - **hostnamectl :-**	View/Change hostname
+> - **lsblk :----------**	List block devices
+> - **lscpu :---------**	Display CPU information
+> - **lsusb :---------**	List USB devices
+> - **lspci :---------**	List PCI devices
+> - **uptime :------**	Show system uptime
+> - **who -a :------**	Show logged-in users
+> - **w :------------**	Show active users
+> - **sar :----------**	Performance monitoring (sysstat package)
+
+### 🖥️ Memory and Disk Optimization
+
+- **🔄 Free RAM Cache (Advanced)**
+   > - sudo sync
+   > - sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches'
+
+- **🔄 Swap Management**
+   > - free -h
+   > - sudo swapon -s
+   > - sudo swapon /swapfile
+   > - sudo swapoff /swapfile
+
+- **🔄 Mount and Unmount Drives**
+   > - sudo mount /dev/sdb1 /mnt
+   > - sudo umount /mnt
+
+---
+---
+## Hands-On Lab – System Monitoring & Process Control
+Goal: Monitor, control, and automate Linux system performance.
+
+- **Tasks to do:**
+
+1.	Launch 3 background processes:
+2.	ping google.com > pinglog &
+3.	sleep 1000 &
+4.	yes > /dev/null &
+5.	Display all running processes:
+6.	Check top resource consumers:
+7.	Kill one process:
+8.	Schedule a reboot in 10 minutes:
+9.	View logs for system boot:
+10.	Start a software with terminal.
+
+## 🛠 Linux Troubleshooting Commands
+
+| **Problem**         | **Solution**                 |
+| ------------------- | ---------------------------- |
+| Hung process        | `kill -9 <PID>`              |
+| Unresponsive system | `dmesg`                      |
+| Network issue       | `ping`, `ss`, `traceroute`   |
+| Disk full           | `du -sh /*`, `df -h`         |
+| Service failed      | `systemctl status <service>` |
+| Check boot issues   | `journalctl -xe`             |
+
+## Quiz
+
+1.	Which command shows real-time CPU and memory usage?
+2.	What is the difference between ps aux and top?
+3.	How do you stop a process running in the background?
+4.	Which command checks active services?
+5.	How do you schedule a command to run daily at 2 AM?
+
+---
+
+
+
 
 
