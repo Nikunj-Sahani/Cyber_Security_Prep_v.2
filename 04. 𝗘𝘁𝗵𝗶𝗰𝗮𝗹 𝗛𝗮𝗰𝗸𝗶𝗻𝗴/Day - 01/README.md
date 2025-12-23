@@ -239,7 +239,75 @@ The CIA Triad is a core security model used in ethical hacking, CEH, and cyberse
 
 ---
 ## 🧱 Cyber Kill Chain
+Cyber Kill Chain is a model that identifies the steps followed by attackers to carry out a cyber attack.
 
+### 📌🧱 7 Stages of Cyber Kill Chain
+
+- **1️⃣ Reconnaissance**
+   > - Attacker collects information about the target
+   > - Emails, IPs, domains, employees
+
+- **2️⃣ Weaponization**
+   > - Creates malicious payload
+   > - Malware + exploit combined
+
+- **3️⃣ Delivery**
+   > - Sends malware to victim
+   > - Email attachment, USB, website
+
+- **4️⃣ Exploitation**
+   > - Exploit runs on victim system
+   > - Vulnerability is triggered
+
+- **5️⃣ Installation**
+   > - Malware installed on system
+   > - Backdoor or trojan created
+
+- **6️⃣ Command & Control (C2)**
+   > - Attacker communicates with infected system
+   > - Remote access established
+
+- **7️⃣ Actions on Objectives**
+   > - Data theft
+   > - Privilege escalation
+   > - System damage
+
+### 🔁 Cyber Kill Chain vs Hacking Methodology
+
+| Cyber Kill Chain     | Hacking Methodology   |
+| -------------------- | --------------------- |
+| Defender focused     | Attacker focused      |
+| 7 stages             | 5 stages              |
+| Used to stop attacks | Used to test security |
+
+---
+##  Risk Management
+
+
+---
+---
+
+# 📊 Easy Memory Trick
+
+- **R W D E I C A**
+> - 👉 Recon → Weapon → Delivery → Exploit → Install → C2 → Action
+
+## **🔐 Example (Phishing Attack)**
+
+  - [ ] **Recon :** Collect employee emails
+  - [ ] **Weapon :** Create malicious PDF
+  - [ ] **Delivery :** Email attachment
+  - [ ] **Exploit :** User opens PDF
+  - [ ] **Install :** Backdoor installed
+  - [ ] **C2 :** Attacker connects remotely
+  - [ ] **Action :** Steal credentials
+
+### **🧠 CEH Exam Tips**
+
+ - > **Phishing email** → Delivery
+ - > **Malware creation** → Weaponization
+ - > **Remote server communication** → C2
+ - > **Data exfiltration** → Actions on Objectives
 
 
 
