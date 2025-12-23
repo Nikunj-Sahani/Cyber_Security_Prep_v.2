@@ -281,8 +281,114 @@ Cyber Kill Chain is a model that identifies the steps followed by attackers to c
 | Used to stop attacks | Used to test security |
 
 ---
-##  Risk Management
+## ⚠️ Risk Management
+Risk Management is a systematic approach to identify, assess, treat, and monitor risks to minimize their impact on an organization.
 
+- **1️⃣ Risk Identification :-**
+  First identify the cause, consequences, sources of Risk.
+
+  > - Identify valuable assets (Data, servers, networks, people)
+
+- **2️⃣ Risk Assessment :-**
+ It must be analyse to know the severity and seriousness of the risk.
+
+  > - Determine risk level (📐 Risk = Threat × Vulnerability × Impact)
+
+- **3️⃣ Risk Treatment :-**
+  After knowing the seriousness of risk, it must eliminate. And check that it won’t affect again.
+
+  > -🔹 **Risk Mitigation**
+    > - Reduce risk using controls (Firewalls, IDS, patching)
+
+  > -🔹 **Risk Acceptance**
+    > - Accept risk if low and manageable
+
+  > -🔹 **Risk Transfer**
+    > - Transfer risk to third party (Insurance, cloud provider)
+
+  > -🔹 **Risk Avoidance**
+    > - Eliminate risk by stopping activity
+
+- **4️⃣ Risk Tracking :-**
+After Treatment of Risk, ensure that it should be controlled and identifies the chance of new risk.
+
+   > - Identify possible threats (Hackers, malware, insider threats, natural disasters)
+
+- **5️⃣ Risk Review :-**
+Evaluates the performance of the implemented risk management strategies.
+
+   > - Monitoring & Review (Continuous risk evaluation)
+   > - Update controls
+
+### 📊 Risk Management Process Flow
+ > - **Assets → Threats → Vulnerabilities → Risk → Controls → Monitoring**
+
+- **🔐 Example :--**
+
+  > - **Asset :** Customer database
+  > - **Threat :** SQL Injection
+  > - **Vulnerability :** No input validation
+  > - **Risk :** Data breach
+  > - **Control :** Web Application Firewall
+
+---
+## 📌 Cyber Laws ⚖️
+Cyber laws deal with legal issues related to cybercrime, data protection, electronic transactions, and digital evidence.
+
+- **👉 Primary cyber law of India**
+
+ > - **Information Technology (IT) Act, 2000**
+
+- > *Objectives:*
+   > - Legal recognition of electronic records & digital signatures
+   > - Define cyber crimes
+   > - Provide punishments & penalties
+
+### 🔐 Important Sections of IT Act
+
+| Section | Description                         |
+| ------- | ----------------------------------- |
+| **43**  | Unauthorized access, data damage    |
+| **43A** | Failure to protect sensitive data   |
+| **65**  | Tampering with computer source code |
+| **66**  | Computer-related offenses           |
+| **66C** | Identity theft                      |
+| **66D** | Online cheating / fraud             |
+| **66E** | Violation of privacy                |
+| **66F** | Cyber terrorism                     |
+| **67**  | Obscene content online              |
+| **72**  | Breach of confidentiality           |
+
+
+### 🌍 International Cyber Laws (Basics)
+
+- GDPR (EU) – Data protection & privacy
+- Computer Fraud and Abuse Act (USA)
+- Cybercrime Convention (Budapest Convention)
+
+### HiPPA :- Health Insurance Portability and Accountability Act
+HIPAA is a U.S. law that ensures the privacy, security, and confidentiality of healthcare data.
+
+- **🎯 Main Purpose of HIPAA**
+
+  > - Protect medical records
+  > - Control access to health data
+  > - Prevent data breaches
+  > - Ensure patient privacy
+
+- **Protected Health Information includes:**
+
+  > - Patient name
+  > - Medical history
+  > - Lab reports
+  > - Insurance details
+
+- **🧨 HIPAA Violations (Examples)**
+
+  > - Unauthorized access to medical records
+  > - Sharing patient data without consent
+  > - Lost or stolen unencrypted medical devices
+  > - Weak access controls
 
 ---
 ---
