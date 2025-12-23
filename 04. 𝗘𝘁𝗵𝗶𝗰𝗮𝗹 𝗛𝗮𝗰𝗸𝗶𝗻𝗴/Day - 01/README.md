@@ -188,37 +188,37 @@ The CIA Triad is a core security model used in ethical hacking, CEH, and cyberse
 
 - [ ] **1️⃣ Reconnaissance (Footprinting) :-** It is the first stage of hacking where we first gather information about the target of his computer system.
 
-- **Goal :** Collect information about the target
+  - **Goal :** Collect information about the target
   > - IP address, domain, DNS
   > - Employees, emails, technologies
 
-- **Types:**
-  > - Passive (Google, WHOIS)
-  > - Active (Ping, traceroute)
+  - **Types:**
+   > - Passive (Google, WHOIS)
+   > - Active (Ping, traceroute)
 
 - [ ] 2️⃣ **Scanning & Enumeration :-** Scanning is a method in which we can get information about a network, port or vulnerability in a system
 
-- **Goal :** Discover live systems, open ports, and services
-  > - Port scanning
-  > - OS detection
-  > - User & service identification
+  - **Goal :** Discover live systems, open ports, and services
+   > - Port scanning
+   > - OS detection
+   > - User & service identification
 
-- **Tools :**
+  - **Tools :**
    > - nmap, netstat, ss
  
 - [ ] 3️⃣ **Gaining Access :-** Enumeration is technique to extracting user name information networks resource and machines shares services in systems.
 
-- **Goal :** Exploit vulnerabilities to enter the system
+  - **Goal :** Exploit vulnerabilities to enter the system
    > - Password attacks
    > - Exploits
    > - Web attacks (SQLi, XSS)
 
-- **Tools :**
+  - **Tools :**
    > - Metasploit, Hydra, Burp Suite
 
 - [ ] 4️⃣ **Maintaining Access :-** Hackers try to hold on to the initial access or foothold they have gained on the network.
 
-- **Goal :** Keep access for future use (testing purpose)
+  - **Goal :** Keep access for future use (testing purpose)
    > - Backdoors
    > - Rootkits
    > - Trojans
@@ -238,3 +238,8 @@ The CIA Triad is a core security model used in ethical hacking, CEH, and cyberse
    > - It includes: - : Gaining Access : Escalating Privileges : Maintain access : Clearing Logs
 
 ---
+## 🧱 Cyber Kill Chain
+
+
+
+
