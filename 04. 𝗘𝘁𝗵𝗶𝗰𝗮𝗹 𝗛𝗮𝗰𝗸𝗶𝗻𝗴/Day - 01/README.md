@@ -186,5 +186,55 @@ The CIA Triad is a core security model used in ethical hacking, CEH, and cyberse
 ---
 ## 🧠 Hacking Methodology / Phases of Hacking
 
+- [ ] **1️⃣ Reconnaissance (Footprinting) :-** It is the first stage of hacking where we first gather information about the target of his computer system.
 
+- **Goal :** Collect information about the target
+  > - IP address, domain, DNS
+  > - Employees, emails, technologies
 
+- **Types:**
+  > - Passive (Google, WHOIS)
+  > - Active (Ping, traceroute)
+
+- [ ] 2️⃣ **Scanning & Enumeration :-** Scanning is a method in which we can get information about a network, port or vulnerability in a system
+
+- **Goal :** Discover live systems, open ports, and services
+  > - Port scanning
+  > - OS detection
+  > - User & service identification
+
+- **Tools :**
+   > - nmap, netstat, ss
+ 
+- [ ] 3️⃣ **Gaining Access :-** Enumeration is technique to extracting user name information networks resource and machines shares services in systems.
+
+- **Goal :** Exploit vulnerabilities to enter the system
+   > - Password attacks
+   > - Exploits
+   > - Web attacks (SQLi, XSS)
+
+- **Tools :**
+   > - Metasploit, Hydra, Burp Suite
+
+- [ ] 4️⃣ **Maintaining Access :-** Hackers try to hold on to the initial access or foothold they have gained on the network.
+
+- **Goal :** Keep access for future use (testing purpose)
+   > - Backdoors
+   > - Rootkits
+   > - Trojans
+
+- [ ] 5️⃣ **Covering Tracks :-** Hide activity and erase evidence
+
+   > - Clearing logs
+   > - Hiding files
+   > - Using steganography
+
+> - *Related Topics*
+
+- **Vulnerability Analysis -** The process of analysing protocol services and configuration to discover vulnerabilities and design flaws that will expose operating system.
+
+- **System Hacking -** When an attacker finds and collects information by using different ways like footprinting, scanning, enumeration and vulnerability analysis are used in these phases and entered in target system is known as system hacking.
+
+   > - It includes: - : Gaining Access : Escalating Privileges : Maintain access : Clearing Logs
+
+---
