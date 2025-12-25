@@ -87,67 +87,79 @@ Footprinting Methodology is the **step-by-step approach used to gather** organiz
 
 ### 🧱 Steps in Footprinting Methodology
 
- Collect Organization Information
+- [X] **🖌️ Collect Organization Information**
+   > - Company name & background
+   > - Employee details
+   > - Email IDs & phone numbers
+   > - Website technologies
+   > - Physical locations
 
-Company name & background
+- [X] **🖌️ Collect Network Information**
+   > - Domain names
+   > - IP addresses
+   > - DNS records
+   > - WHOIS information
+   > - Network range
 
-Employee details
+- [X] **🖌️ Collect System Information**
+   > - Operating system details
+   > - Web server type & location
+   > - Hostnames
+   > - Usernames (if exposed)
 
-Email IDs & phone numbers
+- [X] **🖌️ Gather Open-Source Intelligence (OSINT)**
+   > - Search engines
+   > - Social media
+   > - Public documents
+   > - Job portals
 
-Website technologies
+- [X] **🖌️ Perform Active Footprinting (If Authorized)**
+   > - Ping
+   > - Traceroute
+   > - DNS queries
+   > - Email enumeration
 
-Physical locations
+- [X] **🖌️ Document & Analyze Information**
+   > - Identify weak points
+   > - Prepare for scanning phase
+   > - Reduce detection risk
 
-2️⃣ Collect Network Information
+---
+## 💻 Practical of Information Gathering
 
-Domain names
+**1.** **Find on Search Engines**
+  > - Search engines are the **first & main source** of key information about the target Organization.
+  > - Example :- Yahoo, **Google**, Bing, Duck Duck Go.
 
-IP addresses
+- You can see Below, I want to know Information about cyberyaan.
+ > - **Go on Search engines and search it - Cyberyaan.**
 
-DNS records
+- Image link
 
-WHOIS information
+- [ ] Attackers use search engines to gather information about a target :— such as technologies used, **employee details, and login portals** — to *support social engineering and advanced attacks.*
 
-Network range
+- [ ] Attackers can use advanced search operators available with these search engines and **create complex queries to find, filter, and sort** specific information about the target. Example - Googel Dorking.
 
-3️⃣ Collect System Information
+- **📵 Google Dorking :-**
+Google Dorking is a technique that uses **advanced Google search operators** to find sensitive or hidden information about a target.
 
-Operating system details
+> - **Target Name -** Cyberyaan.com
+> - Search it on google to see something unique.
 
-Web server type & location
+   > - **site:cyberyaan.com**
+   > - site:cyberyaan.com filetype:pdf
+   > - site:cyberyaan.com email
+   > - site:cyberyaan.com "confidential"
 
-Hostnames
+- image link
 
-Usernames (if exposed)
+**2.** **Find on Social Networking Platforms**
+> - It is the way of collecting publicly available **information from social media sites** like instagram, facebook.
+> - People unaware & they post every moment of his life without knowing that they are **leaking information himself on internet.**
+> - These collected information are **helpful for attacker.**
 
-4️⃣ Gather Open-Source Intelligence (OSINT)
+Nowadays almost all people are highly active in social media networks, jobs sites, etc. 
 
-Search engines
-
-Social media
-
-Public documents
-
-Job portals
-
-5️⃣ Perform Active Footprinting (If Authorized)
-
-Ping
-
-Traceroute
-
-DNS queries
-
-Email enumeration
-
-6️⃣ Document & Analyze Information
-
-Identify weak points
-
-Prepare for scanning phase
-
-Reduce detection risk
-
-
-
+Social networking services, such as Facebook, Twitter, and LinkedIn, provide useful information about the individual that helps the attacker in performing social engineering and other attacks
+The people search can provide critical information about a person or an organization, including location, emails, websites, blogs, contacts, important dates, etc.
+People search online services, such as Spokeo, Intelius, pipl, BeenVerified, Whitepages, and PeekYou, provide people's names, addresses, contact details, date of birth, photographs, videos, profession, and so on
