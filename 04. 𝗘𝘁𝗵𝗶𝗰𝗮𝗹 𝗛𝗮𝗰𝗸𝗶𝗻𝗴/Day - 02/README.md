@@ -181,7 +181,7 @@ India has strict privacy laws, so options are limited:
 - [ ] **➿ Used by cybersecurity & investigators (ethical use only):**
 
    > - **WhatsMyName –** Username lookup across platforms **::--** [Click to Open Website](https://whatsmyname.me/)
-   > - **Social Searcher –** Social media mentions  **::--** [Click to Open Website](https://www.social-searcher.com/)
+   > - **Social Searcher –** Social media mentions  **::--** [1st Website](https://www.social-searcher.com/) [2nd Website](https://socialsearcher.net/)
    > - **Hunter.io –** Email domain verification  **::--** [Click to Open Website](https://hunter.io/)
    > - **Maltego –** Advanced relationship mapping (professional) **::--** **[Best in Kali Linux]**
 
