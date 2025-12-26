@@ -302,6 +302,30 @@ Footprinting through social engineering is the process of collecting information
   > - Badge enforcement
 
 ---
+## 🐉 Kali Linux Footprinting Tools
+
+- **theHarvester :-** Collects emails, subdomains, hosts from public sources
+- **Maltego :-** Graph-based OSINT and relationship mapping
+- **Recon-ng :-** Modular web reconnaissance framework
+- **dnsrecon :-**	DNS zone and record discovery
+- **dig :-**	DNS record lookup
+- **nslookup :-**	DNS queries
+- **whois :-** Domain registration info
+
+---
+---
+# 🫸🏻 Lab & Practical Questions
+
+- [X] Perform search engine footprinting to find publicly available documents related to a target organization.
+- [ ] Collect employee details of an organization using social networking sites.
+- [ ] Identify the web technologies used by a target website.
+- [ ] Perform DNS footprinting to obtain A, MX, and NS records of a domain.
+- [ ] Conduct a WHOIS lookup to gather domain registration information.
+- [ ] Trace the network path to a target system using a network footprinting technique.
+- [ ] Analyze an email header to identify the sender’s IP address and mail server.
+- [ ] Extract metadata from a publicly available document to identify usernames and software details.
+
+---
 ---
 
 ## 📌 Well-structured table based on the Footprinting Methodology diagram
