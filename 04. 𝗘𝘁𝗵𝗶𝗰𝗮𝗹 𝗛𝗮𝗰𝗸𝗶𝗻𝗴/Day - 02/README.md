@@ -166,10 +166,10 @@ Google Dorking is a technique that uses **advanced Google search operators** to 
 
     > - People search online services, that  provide people's **names, addresses, contact details, date of birth**, photographs, videos, profession, and so much.
 
-- **U.S based Websites to Search :-**
+- **➿ U.S based Websites to Search :-**
     > -  **Spokeo, Intelius, pipl, BeenVerified, Whitepages, and PeekYou,**
 
-- **India based Websites to Search :-**
+- **➿ India based Websites to Search :-**
 India has strict privacy laws, so options are limited:
 
    > - **Truecaller –** Best for phone number identity
@@ -178,7 +178,7 @@ India has strict privacy laws, so options are limited:
    > - **Facebook / Instagram / X –** Profile cross-verification
    > - **Voter list / Company MCA site –** Legal public records only
 
-- [ ] **Used by cybersecurity & investigators (ethical use only):**
+- [ ] **➿ Used by cybersecurity & investigators (ethical use only):**
 
    > - **WhatsMyName –** Username lookup across platforms **::--** [Click to Open Website](https://whatsmyname.me/)
    > - **Social Searcher –** Social media mentions  **::--** [Click to Open Website](https://www.social-searcher.com/)
@@ -216,4 +216,137 @@ link photo
 link photo
 
 ---
-## Footprinting through social engineering
+## ➿ Footprinting through social engineering
+Footprinting through social engineering is the process of collecting information about a target (person or organization) by interacting with people.
+  > - **Attackers exploit human psychology—trust, fear, curiosity, or authority—to extract sensitive details.**
+
+- **To Gather Info:**
+
+  > - Employee names & roles
+  > - Email IDs & phone numbers
+  > - Internal processes
+  > - Technologies used
+  > - Security policies (often unintentionally revealed)
+
+- **Shoulder surfing :-** Observing a victim to steal sensitive information.
+
+- **Dumpster diving :-** Collecting confidential data from discarded materials.
+
+- **Impersonation :-** Pretending to be a trusted identity to deceive victims.
+
+---
+## 🧩 Types of Social Engineering Used in Footprinting
+- **1️⃣ Pretexting :-** Attacker creates a fake scenario to gain trust.
+
+  Example : “Hi, I’m from the IT support team. We’re updating the email server—can you confirm your username?”
+
+- [X] **Information collected:**
+  
+  > - Usernames
+  > - Department structure
+  > - IT procedures
+
+- 2️⃣ **Phishing (Email-Based) :-** Malicious emails designed to trick users into revealing data.
+
+   Example : Fake HR email asking employees to “verify details”
+
+- [X] **Collected info:**
+
+  > - Login credentials
+  > - Email format (firstname.lastname@company.com)
+  > - Employee responses
+
+- 3️⃣ **Vishing (Voice Phishing) :-** Phone calls impersonating authority.
+
+   Example : “This is the bank security team. We detected suspicious activity.”
+
+- [X] **Collected info:**
+
+  > - DOB
+  > - Account hints
+  > - Verification process
+
+- 4️⃣ **Smishing (SMS Phishing) :-** Malicious text messages.
+
+   Example : “Your courier is delayed. Track here: [link]”
+
+- [X] **Collected info:**
+
+  > - Phone numbers
+  > - Device type
+  > - Location indicators
+
+- 5️⃣ **Impersonation :-** Pretending to be: New employee , Vendor , Auditor , Delivery staff.
+
+- [X] **Collected info:**
+
+  > - Office layout
+  > - Badge policies
+  > - Employee schedules
+
+- 6️⃣ **Baiting :-** Offering something attractive.
+
+  Example : Free USB drive labeled “Salary Details”
+
+- [X] **Collected info:**
+
+  > - System behavior
+  > - Auto-run settings
+  > - Antivirus presence
+
+- 7️⃣ **Tailgating :-** Following an employee into restricted areas.
+
+- [X] **Collected info:**
+
+  > - Physical security controls
+  > - Badge enforcement
+
+---
+---
+
+## 📌 Well-structured table based on the Footprinting Methodology diagram
+
+| **Category**                | **Footprinting Technique**                   | **Description / What is Collected**                                      |
+| --------------------------- | -------------------------------------------- | ------------------------------------------------------------------------ |
+| **Search Engines**          | Advanced Google Hacking                      | Uses Google dorks to find sensitive files, directories, and exposed data |
+|                             | Google Hacking Database & Advanced Search    | Predefined dorks and filters to locate misconfigurations                 |
+|                             | Video, Meta, FTP, IoT Search Engines         | Finds cameras, FTP servers, metadata, and IoT devices                    |
+|                             |                                              |                                                                          |
+| **Web Services**            | People Search Services                       | Finds personal details like name, email, phone number                    |
+|                             | Financial Services & Job Sites               | Job roles, salary patterns, technologies used                            |
+|                             | Deep & Dark Web Footprinting                 | Leaked credentials, hidden services, underground data                    |
+|                             | Competitive Intelligence & Business Profiles | Company size, partners, revenue, market position                         |
+|                             | Monitor Alerts & Online Reputation           | Brand mentions, leaks, reputation tracking                               |
+|                             |                                              |                                                                          |
+| **Social Networking Sites** | Social Engineering                           | Extracts info by interacting with people                                 |
+|                             | Social Media Sites                           | Employee details, locations, habits, technologies                        |
+|                             | Analyzing Social Network Graphs              | Relationship mapping between employees                                   |
+|                             | Groups, Forums, Blogs, NNTP                  | Discussions revealing internal or technical info                         |
+|                             | Public Source Code Repositories              | API keys, credentials, internal logic (GitHub, GitLab)                   |
+|                             |                                              |                                                                          |
+| **Website Footprinting**    | Web Spiders & Website Mirroring              | Copies entire website structure                                          |
+|                             | Internet Archive                             | Accesses old versions of websites                                        |
+|                             | Extract Links, Wordlists, Metadata           | Hidden directories, usernames, file info                                 |
+|                             | Monitor Web Page Updates & Traffic           | Change detection and usage patterns                                      |
+|                             |                                              |                                                                          |
+| **Email Footprinting**      | Track Email Communication                    | Identifies email patterns and flows                                      |
+|                             | Analyze Email Header                         | Finds sender IP, mail server, routing path                               |
+|                             |                                              |                                                                          |
+| **Whois Footprinting**      | Whois Lookup                                 | Domain owner, registrar, creation date                                   |
+|                             | IP Geolocation Lookup                        | Physical location of IP address                                          |
+|                             |                                              |                                                                          |
+| **DNS Footprinting**        | DNS Interrogation                            | DNS records (A, MX, NS, TXT, SOA)                                        |
+|                             | Reverse DNS Lookup                           | Maps IP addresses to domain names                                        |
+|                             |                                              |                                                                          |
+| **Network Footprinting**    | Locate Network Range                         | Identifies IP ranges used by organization                                |
+|                             | Traceroute                                   | Discovers network path and devices                                       |
+|                             |                                              |                                                                          |
+| **Social Engineering**      | Eavesdropping                                | Listening to conversations                                               |
+|                             | Shoulder Surfing                             | Observing passwords or sensitive data                                    |
+|                             | Dumpster Diving                              | Collecting info from discarded material                                  |
+|                             | Impersonation                                | Pretending to be a trusted person                                        |
+|                             |                                              |                                                                          |
+
+
+---
+---
