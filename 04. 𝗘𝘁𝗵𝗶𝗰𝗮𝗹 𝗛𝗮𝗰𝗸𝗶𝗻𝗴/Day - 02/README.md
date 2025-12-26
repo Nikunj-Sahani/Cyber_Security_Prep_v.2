@@ -180,13 +180,40 @@ India has strict privacy laws, so options are limited:
 
 - [ ] **Used by cybersecurity & investigators (ethical use only):**
 
-   > - **WhatsMyName –** Username lookup across platforms
-   > - **Social Searcher –** Social media mentions
-   > - **Hunter.io –** Email domain verification
-   > - **Maltego –** Advanced relationship mapping (professional)
+   > - **WhatsMyName –** Username lookup across platforms **::--** [Click to Open Website](https://whatsmyname.me/)
+   > - **Social Searcher –** Social media mentions  **::--** [Click to Open Website](https://www.social-searcher.com/)
+   > - **Hunter.io –** Email domain verification  **::--** [Click to Open Website](https://hunter.io/)
+   > - **Maltego –** Advanced relationship mapping (professional) **::--** **[Best in Kali Linux]**
+
+**3.** **Find on Web Service**
+ > - Hacker tries to gain information from web services like **job site, groups, social networks, forums** etc to gain sensitive information.
+
+**4.** **Find thorugh DNS (Domain Name System)**
+DNS turn domain name into Ip address for the browser.
+
+   > - DNS or Domain Name System footprinting reveal the DNS zone data like **DNS server name , DNS records, IP address , domain mail server** , etc .
+   > - We use some tools for **DNS footprinting**
+
+- **📧 Nslookup :-** [Click to Open Website](https://www.nslookup.io/)
+   > - Search - cyberyaan.com
+
+link photo
+
+- **📧 Whoislookup :-** [Click to Open Website](https://whois.domaintools.com/)
+   > - Search - cyberyaan.com
+
+link photo
+
+- **📧 MxtoolBox :-** [Click to Open Website](https://mxtoolbox.com/whois.aspx)
+   > - Search - cyberyaan.com
+
+link photo
 
 
+- **📧 Netcraft :-** [Click to Open Website](https://sitereport.netcraft.com/)
+   > - Search - cyberyaan.com
 
+link photo
 
-
-   
+---
+## Footprinting through social engineering
