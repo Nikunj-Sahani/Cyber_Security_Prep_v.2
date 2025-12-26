@@ -46,7 +46,7 @@ Different companies and communities build custom versions of Linux called distri
 |  **Parrot OS** |  	**Debian**   |	**Ethical hacking & digital forensics** |
 
 ### ✔ Unix Structure
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/03.%20Kali%20Linux/Images/Linux.png" alt="Sample Image" width="800" height="1000"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Unix.png" alt="Sample Image" width="800" height="1000"></div>
 
 ---
 ## 🎪 Kali Linux 🎪
