@@ -158,8 +158,35 @@ Google Dorking is a technique that uses **advanced Google search operators** to 
 > - People unaware & they post every moment of his life without knowing that they are **leaking information himself on internet.**
 > - These collected information are **helpful for attacker.**
 
-Nowadays almost all people are highly active in social media networks, jobs sites, etc. 
+- **Nowadays almost all people are highly active in social media networks, jobs sites, etc.**
 
-Social networking services, such as Facebook, Twitter, and LinkedIn, provide useful information about the individual that helps the attacker in performing social engineering and other attacks
-The people search can provide critical information about a person or an organization, including location, emails, websites, blogs, contacts, important dates, etc.
-People search online services, such as Spokeo, Intelius, pipl, BeenVerified, Whitepages, and PeekYou, provide people's names, addresses, contact details, date of birth, photographs, videos, profession, and so on
+   > - Social networking services, such as Facebook, Twitter, and LinkedIn, provide useful information about the individual **that helps the attacker in performing social engineering** and other attacks.
+
+    > - The people search can provide critical information about a person or an organization, **including location, emails, websites, blogs, contacts,** important dates, etc.
+
+    > - People search online services, that  provide people's **names, addresses, contact details, date of birth**, photographs, videos, profession, and so much.
+
+- **U.S based Websites to Search :-**
+    > -  **Spokeo, Intelius, pipl, BeenVerified, Whitepages, and PeekYou,**
+
+- **India based Websites to Search :-**
+India has strict privacy laws, so options are limited:
+
+   > - **Truecaller –** Best for phone number identity
+   > - **Google Dorking –** Search name + email + username
+   > - **LinkedIn –** Professional identity verification
+   > - **Facebook / Instagram / X –** Profile cross-verification
+   > - **Voter list / Company MCA site –** Legal public records only
+
+- [ ] **Used by cybersecurity & investigators (ethical use only):**
+
+   > - **WhatsMyName –** Username lookup across platforms
+   > - **Social Searcher –** Social media mentions
+   > - **Hunter.io –** Email domain verification
+   > - **Maltego –** Advanced relationship mapping (professional)
+
+
+
+
+
+   
