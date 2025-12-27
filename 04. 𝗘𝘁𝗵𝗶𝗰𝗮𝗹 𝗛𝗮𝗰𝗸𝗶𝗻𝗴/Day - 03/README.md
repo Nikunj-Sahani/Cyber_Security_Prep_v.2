@@ -36,23 +36,198 @@ Scanning is a method in which we can **get information about a network**, port o
 A port is a logical communication endpoint used by a computer to **identify which service or application should receive data.**
 
 - 📌 **Think of an IP address as a house address and a port as a room number inside the house.**
-Examples:
 
-80 → HTTP (Web)
+- [ ] **Examples:**
 
-443 → HTTPS (Secure Web)
+  > - 80 → HTTP (Web)
+  > - 443 → HTTPS (Secure Web)
+  > - 22 → SSH
+  > - 21 → FTP
+
+- [ ] **Total Ports : - 65535**
+- [ ] **Port Range:**
+
+  > - 0 – 1023 → Well-known ports
+  > - 1024 – 49151 → Registered ports
+  > - 49152 – 65535 → Dynamic/Private ports
+  > - 📌 Used in TCP and UDP
+
+### 🔹 What is a Packet?
+A packet is a small unit of data that is transmitted over a network.
+
+- 📌 **Large data is broken into packets,** sent across the network, and **reassembled at the destination.**
+
+- [ ] **Packet Contains :-**
+
+   > - Source IP
+   > - Destination IP
+   > - Port numbers
+   > - Data (payload)
+   > - Control information
+
+- [X] ➡ **A packet carries data.**
+- [X] ➡ **A port tells where the packet should go (which application).**
+
+---
+## 📊  Common Network Ports & Their Uses 🌐
+
+- **20, 21 –** FTP (File Transfer Protocol)
+  > - Used to transfer files between computers over TCP.
+  > - **20 -** Data Connection **:-** handles the actual data transfer in active mode
+  > - **21 -** Data Control **:-** handles control commands (like login, requests)
+
+- **22 –** SSH (Secure Shell)
+  > - Used for secure remote login and communication between computers.
+
+- **23 –** Telnet
+  > - Used for remote text-based communication (not secure).
+
+- **25 –** SMTP (Simple Mail Transfer Protocol)
+  > - Used to send emails.
+
+- **53 –** DNS (Domain Name System)
+  > - Translates domain names into IP addresses.
+
+- **67 / 68 –** DHCP (Dynamic Host Configuration Protocol)
+  > - Used to automatically assign IP addresses to network devices.
+
+- **80 –** HTTP (Hypertext Transfer Protocol)
+  > - Used to access websites (not secure).
+
+- **109 –** POP2 (Post Office Protocol v2)
+  > - Used to receive emails (obsolete).
+
+- **110 –** POP3 (Post Office Protocol v3)
+  > - Used to download emails from a mail server.
+
+- **123 –** NTP (Network Time Protocol)
+  > - Used to synchronize time across network devices (uses UDP).
+
+- **143 –** IMAP4 (Internet Message Access Protocol)
+  > - Used to access and manage emails directly on the server.
+
+- **161 –** SNMP (Simple Network Management Protocol)
+  > - Used to monitor and manage network devices.
+
+- **443 –** HTTPS (HTTP Secure)
+  > - Secure web communication using SSL/TLS encryption.
+
+- **3389 –** RDP (Remote Desktop Protocol)
+  > - Used to remotely access Windows systems with a GUI.
+
+- **8080 –** HTTP Alternate / Apache Server
+  > - Used as an alternative web port for web applications.
+
+---
+## 🖥️ TCP & UDP
+
+### 🎮 TCP - Transmission Control Protocol
+TCP is connection-oriented and reliable.
+
+- **Key Features :**
+
+  > - Connection-oriented (3-way handshake)
+  > - Reliable (acknowledgements & retransmission)
+  > - Ordered data delivery
+  > - Error checking & flow control
+  > - Slower but accurate
+
+- **Common TCP Services :**
+
+  > - HTTP (80)
+  > - HTTPS (443)
+  > - FTP (21)
+  > - SSH (22)
+  > - SMTP (25)
+
+### 🎮 UDP (User Datagram Protocol)
+UDP is connectionless and fast.
+
+- **Key Features :**
+
+  > - Connectionless (no handshake)
+  > - No guarantee of delivery
+  > - No order or error correction
+  > - Faster than TCP
+  > - Low overhead
+
+- **Common UDP Services :**
+
+  > - DNS (53)
+  > - DHCP (67/68)
+  > - NTP (123)
+  > - SNMP (161)
+  > - TFTP (69)
+
+## 📌 3 - Way Handshake
+The 3-Way Handshake is the process used by **TCP to establish a reliable connection between a client and a server** before data transfer.
+
+- **Simple :-** TCP 3-Way Handshake is a **three-step process used to establish a TCP connection** between two systems.
+
+### 🧱 Steps of 3-Way Handshake (SYN → SYN-ACK → ACK)
+
+- **1️⃣ SYN (Synchronize)**
+
+  > - Client → Server
+  > - **Client sends a SYN packet to request a connection.**
+  > - 📦 SYN
+
+- **2️⃣ SYN-ACK (Synchronize + Acknowledge)**
+
+  > - Server → Client
+  > - **Server responds with SYN-ACK, agreeing to the connection.**
+  > - 📦 SYN + ACK
+
+- **3️⃣ ACK (Acknowledge)**
+
+  > - Client → Server
+  > - **Client sends ACK, confirming the connection.**
+  > - 📦 ACK
+
+---
+### 🚩 Common TCP Flags
+
+- **SYN (Synchronize)**
+   > - Used to start a TCP connection
+   > - First step of 3-way handshake
+
+- **ACK (Acknowledgment)**
+   > - Confirms receipt of data
+   > - Used in almost every TCP packet
+
+- **FIN (Finish)**
+   > - Used to gracefully close a TCP connection
+
+- **RST (Reset)**
+   > - Immediately terminates a connection
+   > - Sent when an error occurs or port is closed
+
+- **PSH (Push)**
+   > - Tells receiver to deliver data immediately to application
+
+- **URG (Urgent)**
+   > - Indicates urgent data in the packet
+   > - Rarely used today
+
+### 📊 TCP Flags Summary Table
+
+| Flag | Full Form      | Purpose               |
+| ---- | -------------- | --------------------- |
+| SYN  | Synchronize    | Start connection      |
+| ACK  | Acknowledgment | Confirm data          |
+| FIN  | Finish         | Close connection      |
+| RST  | Reset          | Abort connection      |
+| PSH  | Push           | Send data immediately |
+| URG  | Urgent         | Priority data         |
+
+### 🔐 Attack Mapping (Important)
+
+- **SYN Flood → SYN flag abuse**
+ > - Abuse of SYN flag to create many half-open connections and cause DoS
+
+- **RST Injection → RST flag abuse**
+ > - Abuse of RST flag to forcefully terminate an active TCP connection
+
+---
 
 
-22 → SSH
-
-21 → FTP
-
-Port Range:
-
-0–1023 → Well-known ports
-
-1024–49151 → Registered ports
-
-49152–65535 → Dynamic/Private ports
-
-📌 Used in TCP and UDP
