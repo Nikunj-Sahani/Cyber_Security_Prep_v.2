@@ -229,5 +229,35 @@ The 3-Way Handshake is the process used by **TCP to establish a reliable connect
  > - Abuse of RST flag to forcefully terminate an active TCP connection
 
 ---
+## Types of Scan
+
+- **-sT =** TCP scan
+- **-sS =** Stealth scan
+- **-sX =** Xmas scan
+- **-sF =** Fin scan
+- **-sN =** Null scan
+- **-sA =** ARP scan
+
+### 📊 Quick Revision Table
+
+| Scan Type  | Command       | Purpose          |
+| ---------- | ------------- | ---------------- |
+| Ping       | -sn           | Live hosts       |
+| SYN        | -sS           | Stealth scan     |
+| TCP        | -sT           | Full connection  |
+| UDP        | -sU           | UDP ports        |
+| FIN        | -sF           | Firewall evasion |
+| NULL       | -sN           | Stealth          |
+| XMAS       | -sX           | Port state       |
+| OS         | -O            | OS detection     |
+| Version    | -sV           | Service info     |
+| Aggressive | -A            | Full scan        |
+| Vuln       | --script vuln | Vulnerabilities  |
+
+---
+
+
+
+
 
 
