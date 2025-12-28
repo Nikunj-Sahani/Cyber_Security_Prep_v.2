@@ -1,5 +1,5 @@
 <h1 align="center">📜 Day 04 📜</h1>
-<h2 align="center">🪬 Nmap Practical Scanning & Tools 🪬</h2>
+<h2 align="center">🪬 Scanning Tools & Practical  🪬</h2>
 
 ---
 ### 🎯 What is Nmap ?
@@ -141,8 +141,17 @@ Nmap (Network Mapper) → Scanning tool
 | Aggressive | -A            | Full scan        |
 | Vuln       | --script vuln | Vulnerabilities  |
 
+## 🔍 Scannig Tools
+
+- **Nmap ::-** Network discovery and port scanning
+- **Nikto ::-** Web server vulnerability scanner
+- **Wireshark ::-** analyze network packets in real time
+- **Netdiscover ::-** Live host scanning
+- **Arp-scan ::-** Identify live hosts in a local network
+- **hping ::-** Network packet scanning
+
 ---
-# 🪬Practical Scanning with Nmap
+# 🪬Practical Scanning
 I'm starting the kali linux for scanning and i show you **screenshots below.**
 
 - **Kali Linux** ::- (Attacker Machine) for Testing
