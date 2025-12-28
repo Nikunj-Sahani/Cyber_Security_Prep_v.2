@@ -255,9 +255,25 @@ The 3-Way Handshake is the process used by **TCP to establish a reliable connect
 | Vuln       | --script vuln | Vulnerabilities  |
 
 ---
+# Question Reminder
 
+- What is network scanning?
+- Why is network scanning used in ethical hacking?
+- What is the main purpose of a ping scan?
+- Which scan is called a half-open scan?
+- What does port scanning identify?
+- Which protocol is mainly scanned in UDP scanning?
+- What is ARP scanning used for?
+- Which scan uses FIN, PSH, and URG flags?
+- What information is gathered from open ports?
+- What is OS fingerprinting?
+- Which scan is best for detecting live hosts in a LAN?
+- Why is UDP scanning slow?
+- What is vulnerability scanning?
+- Which scan technique helps in firewall evasion?
+- What is aggressive scanning?
 
-
+---
 
 
 
