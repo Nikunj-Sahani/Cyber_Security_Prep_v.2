@@ -66,5 +66,53 @@ Cyber Kill Chain is a model that identifies the steps followed by attackers to c
 
 ---
 ## Tactics ,Techiniques and Procedure (TTPs)
-TTPs describe how cyber attackers operate — their goals, methods, and **exact actions during an attack.**
+TTPs describe an attacker’s **goals** (tactics), **methods** (techniques), and **exact steps** (procedures) used in a cyber attack.
+
+- **🔹 1. Tactics (WHY)** **::-** It represent the objective or **goal of an attacker at a particular stage** of an attack.
+
+  > - **Example ::-**
+  > - Reconnaissance
+  > - Initial Access
+  > - Privilege Escalation
+
+ _👉 Tactics answer:_ **“Why is the attacker doing this?”**
+
+ - **🔹 2. Techniques (HOW)** **::-** It describe how attackers achieve a tactic — **the general method used.**
+
+  > - **Example ::-**
+  > - Phishing (Initial Access)
+  > - Brute Force (Credential Access)
+  > - SQL Injection (Initial Access)
+
+_👉 Techniques answer:_ **“How is the attacker doing it?”**
+
+- **🔹 3. Procedures (EXACT STEPS)** **::-** The specific steps, tools, and **commands used to carry out a technique.**
+
+  > - **Example ::-**
+  > - Sending a phishing email with a malicious PDF
+  > - Running a specific PowerShell command
+  > - Exploiting a known CVE with Metasploit
+
+_👉 Procedures answer:_ **“Exactly how was it done?”**
+
+### 🔹 Simple Example
+
+- *Attack:* **Credential theft**
+
+ > - **Tactic:** Credential Access
+ > - **Technique:** Phishing
+ > - **Procedure:** Sending a fake Google login page and capturing usernames/passwords
+
+---
+## 🔞 What is Ethical Hacking? 
+Ethical Hacking is a process of hacking system in a **legal way and his aim is to identify vulnerabilities** in an application.
+
+- **Key Points of Ethical Hacking:**
+  
+ > - Permission and Authorization
+ > - Finding Vulnerabilities
+ > - Reporting and Fixing
+ > - Follow the Laws and Ethics 
+
+### Types of Hacker
 
