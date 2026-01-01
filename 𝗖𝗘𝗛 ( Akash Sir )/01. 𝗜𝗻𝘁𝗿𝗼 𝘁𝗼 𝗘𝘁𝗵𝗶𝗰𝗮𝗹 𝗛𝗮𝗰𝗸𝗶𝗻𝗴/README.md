@@ -114,5 +114,30 @@ Ethical Hacking is a process of hacking system in a **legal way and his aim is t
  > - Reporting and Fixing
  > - Follow the Laws and Ethics 
 
-### Types of Hacker
+### 🙅‍♀️ Types of Hacker
+
+- **White Hat Hacker ::-** Ethical hacker who **legally tests systems** to improve security.
+- **Black Hat Hacker ::-** Malicious hacker who **illegally exploits systems** for personal gain.
+- **Grey Hat Hacker ::-** Hacker who breaks rules without permission but **usually not for malicious intent.**
+
+  > - **Script Kiddies :-** Inexperienced attackers who **use ready-made hacking tools** or scripts to hack.
+  > - **Hacktivists :-** Hackers who **use cyber attacks to promote political**, social, or ideological causes.
+  > - **StateSponsored Hacker :-** Government-backed hackers who **conduct cyber attacks for espionage, surveillance,** or national security purposes.
+  > - **CyberCrimininals :-** A groups who carry out **cyber attacks for financial gain** through activities like fraud,
+  > - **Phreakers :-** Who exploit telephone systems to **make free calls or manipulate telecom networks.**
+
+## 🔞 Stage of Ethical Hacking
+Five stages of Ethical Hacking
+
+1️⃣ **Reconnaissance :** Collecting information about the target
+
+2️⃣ **Scanning :** Identifying live systems and vulnerabilities
+
+3️⃣ **Gaining Access :** Exploiting vulnerabilities to enter the system
+
+4️⃣ **Maintaining Access :** Creating persistence for continued access
+
+5️⃣ **Clearing Tracks :** Hiding evidence of the attack
+
+ 
 
