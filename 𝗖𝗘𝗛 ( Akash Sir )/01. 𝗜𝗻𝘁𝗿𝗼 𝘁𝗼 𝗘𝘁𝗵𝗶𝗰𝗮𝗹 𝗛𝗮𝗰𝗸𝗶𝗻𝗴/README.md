@@ -144,6 +144,24 @@ Five stages of Ethical Hacking
   5️⃣ **Clearing Tracks :** Hiding evidence of the attack
 
 ---
+## ✏️ Classification of Attacks
+
+- **Passive Attacks -** Attacker only observes data, does not modify it.
+   > - *Example -* Eavesdropping and Network traffic analysis.
+
+- **Active attacks -** Attacker alters or disrupts data or services.
+   > - *Example -* DOS & DDOS attack, Spoofing & Man in middle attack.
+
+- **Close-in Attack -** Attacker must be physically close to target system for an attack.
+   > - *Example -* Social Engineering.**
+   
+- **Insider Attacks -** A employee who authorised access to all the information.
+   > - *Example -* Employee Data theft and spoliation.
+
+- **Distributions attacks -** It occur when attackers tamper with hardware and software prior to installation.
+   > - *Example -* Modification of Software and Hardware during production & distribution.
+
+---
 ## ⚠️ Risk Management
 Risk Management is a systematic approach to identify, assess, treat, and monitor risks to minimize their impact on an organization.
 
@@ -294,3 +312,17 @@ Safeguards implemented to **protect confidentiality, integrity, and availability
 ---
 ---
 #  Practice Questions
+
+1. What is ethical hacking, and why is it important
+2. Explain CIA Traid in a line.
+3. Preventive, Detective, and Corrective controls
+4. Describe the main types of hackers.
+5. Name Five stages of Ethical hacking
+6. Tool name for Scanning.
+7. 3 types of Control can be.
+8. Explain integrity
+9. What is Vulnerability.
+10. PCI DSS stands for.
+
+---
+---
