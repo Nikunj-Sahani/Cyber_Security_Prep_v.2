@@ -5,7 +5,7 @@
 ### What is FootPrinting ?
 Hackers gather as much information as possible about a target system or organization.
 
-## Techniques and Tools for Footprinting
+## 🤾‍♂️ Techniques and Tools for Footprinting
 Footprinting is the first step in ethical hacking, It **helps them to understand** the "attack surface," or **all possible entry points,** of a network.
 
 ### Key Techniques :
@@ -23,7 +23,7 @@ Footprinting is the first step in ethical hacking, It **helps them to understand
  > - **Google Dorking :** Using search engines to find information by search operators like `site:`, `filetype:`, etc.
  > - **Nikto :** Network scanning Tool
 
-## PreAttack Phase Overview
+## 🕵️ PreAttack Phase Overview
 Footprinting and reconnaissance form part of the preattack phase. 
 
   > - This phase helps ethical **hackers plan and prepare** before actively trying to enter the network.
@@ -43,7 +43,7 @@ Reconnaissance is a broader term that includes footprinting but also extends int
    > - **Passive**
 
 ---
-## Why Footprinting is Important
+## 🕵️ Why Footprinting is Important
 It helps attackers (or ethical hackers) to **understand their target, find weaknesses,** and plan their next moves.
 
 ### 🧱 Types of Footprinting
@@ -102,7 +102,7 @@ Footprinting threats are risks that arise when attackers collect information abo
 - [ ] **✒️ System Information**
    > - Includes operating system details, web server location, usernames, and passwords, which help attackers target specific systems.
 
-### Tools Used in Footprinting:
+### 🕵️ Tools Used in Footprinting:
 
 - **Nslookup :** Finds DNS records.
 - **Traceroute :** Tracks the route data takes.
@@ -111,10 +111,38 @@ Footprinting threats are risks that arise when attackers collect information abo
 - **Nikto :** Checks for website vulnerabilities
 
 ---
+## 🔍 Google Dorks Used by Ethical Hackers (For Information Gathering)
+Ethical hackers use Google search operators to find publicly available information during the footprinting phase.
 
+- **filetype:** Used to find specific file types such as PDF, DOC, or XLS.
+   > - _Example:_ filetype:pdf report – **Finds PDF reports**.
 
+- **index of:** Displays open directories and file listings on a website.
+   > - _Example:_ index of password – May **show directories containing password files.**
 
+- **info:** Shows basic information Google has about a webpage.
+   > - _Example:_ info:example.com – **Displays website details.**
 
+- **intitle:** Searches for specific words in the webpage title.
+   > - _Example:_ intitle:login – **Finds login pages.**
+
+- **title:** Searches for an exact phrase in the page title.
+   > - _Example:_ title:"admin panel" – **Finds pages with that exact title.**
+
+- **inurl:** Searches for specific keywords in the URL.
+   > - _Example:_ inurl:admin – **Finds admin-related URLs.**
+
+- **link:** Finds webpages that link to a specific site.
+   > - _Example:_ link:example.com – **Shows sites linking to example.com.**
+
+- **related:** Displays websites similar to a given website.
+   > - _Example:_ related:amazon.com – **Shows similar e-commerce sites.**
+
+- **site:** Restricts search results to a specific domain or website.
+   > - _Example:_ site:example.com – **Searches only within example.com.**
+
+---
+## 🔍 Footprinting Through Search Engines
 
 
 
