@@ -143,12 +143,35 @@ Ethical hackers use Google search operators to find publicly available informati
 
 ---
 ## 🔍 Footprinting Through Search Engines
+Search engines are the main source of **key information about the target Organization.**
+- [X] Search engines are like yahoo, google , Bing , Duck duckgo, Dogphile, Shodan, Censys.
+
+### **🧐 1. Shodan - Search Engine :::-** 
+Shodan is a search engine for **Internet-connected devices used to find servers, routers, webcams, IoT devices,** and services exposed online by IP, port, service, or location.
+
+👉 Used in footprinting and reconnaissance **to identify open ports, services, and misconfigurations.**
+
+- **Basic search filters you can use:**
+
+  > - **city :** find devices in a particular city
+  > - **country :** find devices in a particular country
+  > - **geo :** you can pass it coordinates
+  > - **hostname :** find values that match the hostname
+  > - **net :** search based on an IP or /x CIDR
+  > - **os :** search based on an operating system
+  > - **port :** find particular ports that are open
+  > - **before/after :** find results within a timeframe
+
+---
+### **🧐 2. Censys - Search Engine :::-** 
+Censys is an Internet scanning and search platform **used to discover and analyze Internet-exposed devices,** services, websites, and digital certificates.
+
+👉 Commonly used in footprinting and reconnaissance to **identify open ports, services, TLS/SSL certificates,** and security misconfigurations.
+
+   > - **Alternative of Shodan**
 
 
-
-
-
-
-
+---
+#### **🧐 3. Netcraft - Domain Search Engine :::-** 
 
 
