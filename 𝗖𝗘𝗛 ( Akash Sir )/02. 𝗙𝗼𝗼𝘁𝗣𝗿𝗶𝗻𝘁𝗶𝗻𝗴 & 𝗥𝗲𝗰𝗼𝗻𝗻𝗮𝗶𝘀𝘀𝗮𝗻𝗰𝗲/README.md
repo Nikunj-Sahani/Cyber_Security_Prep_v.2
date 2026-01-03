@@ -173,5 +173,14 @@ Censys is an Internet scanning and search platform **used to discover and analyz
 
 ---
 #### **🧐 3. Netcraft - Domain Search Engine :::-** 
+Netcraft is an online information-gathering tool **used to identify web technologies, hosting details**, server OS, DNS information, and security posture of a website.
 
+👉 Used in footprinting and reconnaissance to **collect publicly available website** and **infrastructure information.**
+
+
+---
+#### **🧐 4. WhoisLookup - Domain Search Engine :::-**
+WHOIS Lookup is an information-gathering technique **used to obtain domain registration details such as domain owner, registrar**, registration dates, name servers, and **contact information.**
+
+👉 Used in footprinting to **identify ownership and infrastructure details** of a target domain.
 
