@@ -146,7 +146,7 @@ Ethical hackers use Google search operators to find publicly available informati
 Search engines are the main source of **key information about the target Organization.**
 - [X] Search engines are like yahoo, google , Bing , Duck duckgo, Dogphile, Shodan, Censys.
 
-### **🧐 1. Shodan - Search Engine :::-** 
+### 🧐 1. Shodan - Search Engine :::- 
 Shodan is a search engine for **Internet-connected devices used to find servers, routers, webcams, IoT devices,** and services exposed online by IP, port, service, or location.
 
 👉 Used in footprinting and reconnaissance **to identify open ports, services, and misconfigurations.**
@@ -163,7 +163,7 @@ Shodan is a search engine for **Internet-connected devices used to find servers,
   > - **before/after :** find results within a timeframe
 
 ---
-### **🧐 2. Censys - Search Engine :::-** 
+### 🧐 2. Censys - Search Engine :::-
 Censys is an Internet scanning and search platform **used to discover and analyze Internet-exposed devices,** services, websites, and digital certificates.
 
 👉 Commonly used in footprinting and reconnaissance to **identify open ports, services, TLS/SSL certificates,** and security misconfigurations.
@@ -172,15 +172,46 @@ Censys is an Internet scanning and search platform **used to discover and analyz
 
 
 ---
-#### **🧐 3. Netcraft - Domain Search Engine :::-** 
+#### 🧐 3. Netcraft - Domain Search Engine :::-
 Netcraft is an online information-gathering tool **used to identify web technologies, hosting details**, server OS, DNS information, and security posture of a website.
 
 👉 Used in footprinting and reconnaissance to **collect publicly available website** and **infrastructure information.**
 
 
 ---
-#### **🧐 4. WhoisLookup - Domain Search Engine :::-**
+#### 🧐 4. WhoisLookup - Domain Search Engine :::-
 WHOIS Lookup is an information-gathering technique **used to obtain domain registration details such as domain owner, registrar**, registration dates, name servers, and **contact information.**
 
 👉 Used in footprinting to **identify ownership and infrastructure details** of a target domain.
 
+---
+#### 🧐 5. Buzzsumo - Track internet Activity (PAID)
+Basically it track all the activity over the internet. **BuzzSumo is an online content analysis and research tool** used to identify popular content, trending topics, and influential authors across social media platforms.
+
+👉 In footprinting, **it helps gather public information about an organization’s online presence**, content strategy, and key influencers.
+
+
+---
+#### 🧐 6. Nslookup - Domain Records
+DNS turn domain name into Ip address for the browser .
+
+👉 DNS or Domain Name System footprinting reveal the DNS zone data like : **DNS server name , DNS records, IP address , domain mail server** , etc.
+
+
+---
+## 🔍 Reverse DNS Lookup
+This task is performed to check the shared server of target "Means **Target is hosted in whatever server there may be other domains are also hosted.**"
+
+- If we able to compromise the any domain of that server we got server access and we can target the our victim .
+  > - Lets see how Reverse DNS footprinting is done :
+  > - Tool name is **You Get Signal**
+
+- **Websites and tools to perform a Reverse DNS Lookup:**
+
+  > - **MXToolbox –** Reverse DNS lookup tool
+  > - **ViewDNS –** Reverse IP / PTR record lookup
+  > - **DNSChecker –** Reverse DNS checker
+  > - **IPinfo –** Shows hostname for an IP
+
+---
+## 🔍 Linux Tools to Recon
