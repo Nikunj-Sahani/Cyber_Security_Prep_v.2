@@ -141,6 +141,11 @@ Ethical hackers use Google search operators to find publicly available informati
 - **site:** Restricts search results to a specific domain or website.
    > - _Example:_ site:example.com – **Searches only within example.com.**
 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dork1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dork2.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dork3.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dork4.png" alt="Sample Image"></div>
+
 ---
 ## 🔍 Footprinting Through Search Engines
 Search engines are the main source of **key information about the target Organization.**
