@@ -162,6 +162,10 @@ Shodan is a search engine for **Internet-connected devices used to find servers,
   > - **port :** find particular ports that are open
   > - **before/after :** find results within a timeframe
 
+- The Link to GO...
+> - [ Shodan ](https://www.shodan.io/
+
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/CRTA--Certified_Red_Team_Analyst/blob/main/Study%20Material/Images/EI-1.png" alt="Sample Image"></div>
 ---
 ### 🧐 2. Censys - Search Engine :::-
 Censys is an Internet scanning and search platform **used to discover and analyze Internet-exposed devices,** services, websites, and digital certificates.
