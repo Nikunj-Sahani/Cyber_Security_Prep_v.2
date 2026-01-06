@@ -162,10 +162,12 @@ Shodan is a search engine for **Internet-connected devices used to find servers,
   > - **port :** find particular ports that are open
   > - **before/after :** find results within a timeframe
 
-- The Link to GO...
-> - [ Shodan ](https://www.shodan.io/
+- The Link to GO... **[ Shodan ]** -- (https://www.shodan.io/)
 
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/CRTA--Certified_Red_Team_Analyst/blob/main/Study%20Material/Images/EI-1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Shodan1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Shodan2.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Shodan3.png" alt="Sample Image"></div>
+
 ---
 ### 🧐 2. Censys - Search Engine :::-
 Censys is an Internet scanning and search platform **used to discover and analyze Internet-exposed devices,** services, websites, and digital certificates.
@@ -174,6 +176,9 @@ Censys is an Internet scanning and search platform **used to discover and analyz
 
    > - **Alternative of Shodan**
 
+- The Link to GO... **[ Censys ]** -- (https://search.censys.io/)
+
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Censys.png" alt="Sample Image"></div>
 
 ---
 #### 🧐 3. Netcraft - Domain Search Engine :::-
@@ -181,6 +186,10 @@ Netcraft is an online information-gathering tool **used to identify web technolo
 
 👉 Used in footprinting and reconnaissance to **collect publicly available website** and **infrastructure information.**
 
+- The Link to GO... **[ Netcraft ]** -- (https://sitereport.netcraft.com/)
+ 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Netcraft1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Netcraft2.png" alt="Sample Image"></div>
 
 ---
 #### 🧐 4. WhoisLookup - Domain Search Engine :::-
@@ -188,12 +197,20 @@ WHOIS Lookup is an information-gathering technique **used to obtain domain regis
 
 👉 Used in footprinting to **identify ownership and infrastructure details** of a target domain.
 
+- The Link to GO... **[ Whoislookup ]** -- (https://whois.domaintools.com/)
+ 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Mxtool.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Domaintools.png" alt="Sample Image"></div>
+
 ---
 #### 🧐 5. Buzzsumo - Track internet Activity (PAID)
 Basically it track all the activity over the internet. **BuzzSumo is an online content analysis and research tool** used to identify popular content, trending topics, and influential authors across social media platforms.
 
 👉 In footprinting, **it helps gather public information about an organization’s online presence**, content strategy, and key influencers.
 
+- The Link to GO... **[ Buzzsumo ]** -- (https://buzzsumo.com/)
+ 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Buzzsumo.png" alt="Sample Image"></div>
 
 ---
 #### 🧐 6. Nslookup - Domain Records
@@ -201,6 +218,9 @@ DNS turn domain name into Ip address for the browser .
 
 👉 DNS or Domain Name System footprinting reveal the DNS zone data like : **DNS server name , DNS records, IP address , domain mail server** , etc.
 
+- The Link to GO... **[ Nslookup ]** -- (https://www.nslookup.io/)
+ 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nslookup.png" alt="Sample Image"></div>
 
 ---
 ## 🔍 Reverse DNS Lookup
@@ -212,10 +232,10 @@ This task is performed to check the shared server of target "Means **Target is h
 
 - **Websites and tools to perform a Reverse DNS Lookup:**
 
-  > - **MXToolbox –** Reverse DNS lookup tool
-  > - **ViewDNS –** Reverse IP / PTR record lookup
-  > - **DNSChecker –** Reverse DNS checker
-  > - **IPinfo –** Shows hostname for an IP
+  > - **MXToolbox –** Reverse DNS lookup tool , [Reverse Lookup] - (https://mxtoolbox.com/ReverseLookup.aspx)
+  > - **ViewDNS –** Reverse IP / PTR record lookup , [DNS view] - (https://viewdns.info/)
+  > - **DNSChecker –** Reverse DNS checker , [Domain check] - (https://dnschecker.org/)
+  > - **IPinfo –** Shows hostname for an IP ,  [IP Lookup] - (https://ipinfo.io/)
 
 ---
 ### 🔍 Gather information Through Video search Engines
@@ -223,8 +243,9 @@ TubePilot is an **OSINT tool used to analyze YouTube data** such as channels, vi
 
 👉 In footprinting, it helps gather public information about an organization’s or individual’s video content, reach, and online presence.
 
-
-
+- The Link to GO... **[ Tubepilot ]** -- (https://tubepilot.ai/tools/youtube-data-viewer/)
+ 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Tubepilot.png" alt="Sample Image"></div>
 
 ---
 ## 🔍 Linux Tools to Recon
