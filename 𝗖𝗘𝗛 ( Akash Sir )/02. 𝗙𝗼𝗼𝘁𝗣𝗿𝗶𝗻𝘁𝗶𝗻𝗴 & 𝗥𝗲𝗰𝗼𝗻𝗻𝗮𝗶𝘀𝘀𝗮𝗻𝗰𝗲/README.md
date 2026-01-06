@@ -214,4 +214,24 @@ This task is performed to check the shared server of target "Means **Target is h
   > - **IPinfo –** Shows hostname for an IP
 
 ---
+### 🔍 Gather information Through Video search Engines
+TubePilot is an **OSINT tool used to analyze YouTube data** such as channels, videos, keywords, trends, and engagement metrics.
+
+👉 In footprinting, it helps gather public information about an organization’s or individual’s video content, reach, and online presence.
+
+
+
+
+---
 ## 🔍 Linux Tools to Recon
+
+
+---
+---
+## Best Practices for Reconnaissance:
+
+- **Avoid Direct Contact Early :** Use indirect methods like WHOIS lookups and DNS analysis to reduce detection risks.
+- **Document Findings :** Keep track of all information gathered for planning and reporting.
+- **Prioritize Privacy :** Use anonymization tools or virtual private networks (VPNs) if necessary to mask your activity.
+- **Follow Ethical Boundaries :** Ensure you’re gathering information legally and ethically, especially when working with sensitive data.
+
