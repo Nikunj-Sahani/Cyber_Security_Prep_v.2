@@ -255,6 +255,34 @@ TubePilot is an **OSINT tool used to analyze YouTube data** such as channels, vi
 ---
 ## 🔍 Linux Tools to Recon
 
+> - Nmap
+> - Whois
+> - Nslookup
+> - Nikto
+> - DNSrecon
+> - Traceroute
+> - Dig
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap10.png" alt="Sample Image"></div>
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Whois10.png" alt="Sample Image"></div>
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nslookup10.png" alt="Sample Image"></div>
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nikto10.png" alt="Sample Image"></div>
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dnsrecon10.png" alt="Sample Image"></div>
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Traceroute10.png" alt="Sample Image"></div>
+
+---
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dig10.png" alt="Sample Image"></div>
 
 ---
 ---
