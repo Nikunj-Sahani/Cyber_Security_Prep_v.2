@@ -2,13 +2,13 @@
 <h2 align="center">⚓ Network Scanning ⚓</h2>
 
 ---
-### What is Network → 
+### ✅ What is Network → 
 A group of connected devices that communicate and share data.
 
-### What is IP Address → 
+### ✅ What is IP Address → 
 A unique numerical address used to identify a device on a network.
 
-### What is MAC Address → 
+### ✅ What is MAC Address → 
 A unique physical hardware address assigned to a network interface.
 
 ---
@@ -50,7 +50,7 @@ The phase where an attacker **identifies live hosts, open ports, running service
    > - A US government database that provides detailed information about vulnerabilities and is linked with CVE data.
 
 ---
-### What is TCP?
+### 🛠️ What is TCP?
 TCP (Transmission Control Protocol) is a way for two devices (like a computer and a server) to talk to each other over the internet.
  > - **It makes sure that the connection is reliable, meaning both devices are ready to send and receive information.**
 
@@ -62,12 +62,12 @@ Before any real communication happens, they need to make sure they’re both rea
  3. **ACK (Confirmation) :** Client says, _"Great, let's talk!"_
 
 ---
-## Scanning Tools
+## 🛠️ Scanning Tools
 
 ### Port Scanning Tools:
 These tools help **identify open ports on a system**, giving attackers insight into available services and potential vulnerabilities.
 
-**Nmap :** One of the most popular and versatile port scanning tools.
+**🏗️ Nmap :** One of the most popular and versatile port scanning tools.
   - [X]  It helps discover hosts, services, operating systems, and open ports.
 
  - **Example Command :- nmap IP address**
@@ -88,7 +88,7 @@ These tools help **identify open ports on a system**, giving attackers insight i
 
    > - **nmap -A 192.168.1.10  ::-** Aggressive Scan
   
-**Netcat (nc):** Often called the "Swiss Army knife" of networking,
+**🏗️ Netcat (nc):** Often called the "Swiss Army knife" of networking,
   - [X] It's used for scanning and banner grabbing from open ports.
 
  - **Example Command: nc zv IP 80,443**
@@ -107,7 +107,7 @@ These tools help **identify open ports on a system**, giving attackers insight i
   
    > - **nc -lvnp 5555 > file.txt ::-** File transfer (receiver)
 
-**Masscan :** A very fast port scanner, often used for scanning large networks.
+**🏗️ Masscan :** A very fast port scanner, often used for scanning large networks.
   - [X] Known as the **fastest port scanner, faster than Nmap,** but provides less detailed results.
 
 - **Example Command: masscan IP p065535**
@@ -122,7 +122,7 @@ These tools help **identify open ports on a system**, giving attackers insight i
   
    > - **masscan 192.168.1.0/24 -p80 --rate 1000 ::-** Set scan speed (rate)
 
-**Zenmap :** A graphical interface for Nmap, making it easier to use for beginners. 
+**🏗️ Zenmap :** A graphical interface for Nmap, making it easier to use for beginners. 
   - [X] Zenmap is GUI version of nmap.
 
 
