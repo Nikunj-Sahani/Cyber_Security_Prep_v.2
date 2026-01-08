@@ -122,9 +122,36 @@ These tools help **identify open ports on a system**, giving attackers insight i
   
    > - **masscan 192.168.1.0/24 -p80 --rate 1000 ::-** Set scan speed (rate)
 
-**🏗️ Zenmap :** A graphical interface for Nmap, making it easier to use for beginners. 
-  - [X] Zenmap is GUI version of nmap.
+**Fping :** A tool used for quickly pinging multiple devices to check which hosts are live on the network.
+  - [X] It can ping multiple IPs simultaneously, making it faster than the standard ping.
 
+**Example Command: fping a g (network range)**
+
+  > - **fping -a -g 192.168.1.0/24**
+  > - Only live hosts are displayed
+  > - If 192.168.1.14 is live, the output will be: **The IP**
+
+
+
+---
+## Network Scanning Tools:
+These tools are used to scan the network to identify hosts, active devices, and their vulnerabilities.
+
+**🏗️ Zenmap :** A graphical interface for Nmap, making it easier to use for beginners. 
+  - [X] Zenmap is GUI version of nmap - 
+  - [X] **Windows Installer** - [Link to Go](https://nmap.org/download.html)
+
+
+
+---
+**Angry IP Scanner :** A simple and fast network scanner that allows you to scan local networks for active devices.
+  - [X] **Windows Installer** - [Link to Go](https://angryip.org/download/)
+
+
+
+---
+**Advanced IP Scanner :** A network scanner that finds all devices on a local network and can also be used for remote shutdowns. Source : 
+  - [X] **Windows Installer** - [Link to Go](https://www.advancedipscanner.com/)
 
 
 
