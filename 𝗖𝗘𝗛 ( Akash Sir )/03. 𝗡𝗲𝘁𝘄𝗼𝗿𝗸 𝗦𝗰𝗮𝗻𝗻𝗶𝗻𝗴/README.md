@@ -155,19 +155,23 @@ These tools are used to scan the network to identify hosts, active devices, and 
   - [X] Zenmap is GUI version of nmap - 
   - [X] **Windows Installer** - [Link to Go](https://nmap.org/download.html)
 
-
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap2.png" alt="Sample Image"></div>
 
 ---
 **Angry IP Scanner :** A simple and fast network scanner that allows you to scan local networks for active devices.
   - [X] **Windows Installer** - [Link to Go](https://angryip.org/download/)
 
-
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry2.png" alt="Sample Image"></div>
 
 ---
 **Advanced IP Scanner :** A network scanner that finds all devices on a local network and can also be used for remote shutdowns. Source : 
   - [X] **Windows Installer** - [Link to Go](https://www.advancedipscanner.com/)
 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance1.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance2.png" alt="Sample Image"></div>
 
-
+---
 
 
