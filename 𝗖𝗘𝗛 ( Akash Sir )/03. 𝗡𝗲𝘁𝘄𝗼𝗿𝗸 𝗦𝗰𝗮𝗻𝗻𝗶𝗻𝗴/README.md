@@ -197,10 +197,45 @@ These tools are used to scan the network to identify hosts, active devices, and 
    > - _Including :-_ Live hosts , Open ports , Services , Vulnerabilities , Recommendations
 
 ---
+### ❌ Countermeasures Against Scanning (In Short):
 
+- [ ] **Firewalls :** Block suspicious scanning traffic and unauthorized ports.
 
+- [ ] **IDS :** Detect and alert on scanning activities.
 
+- [ ] **NAC :** Restrict network access to authorized devices only.
 
+- [ ] **Port Security :** Limit switch ports using MAC address controls.
+
+- [ ] **Honeypots :** Decoy systems to detect and log attacker scans.
+
+---
+---
+# ❎ Additional ScenarioBased Practice Questions
+
+- **1. Scenario :** 🧑‍💻
+
+You are tasked with conducting a network scan on a client’s network. Describe the steps you would take and the scanning techniques you would use to gather information on active devices and open ports.
+  
+- **2. Scenario :** 🧑‍💻
+
+ During a network scan, you find several open ports on a target server. What would be your next steps in analyzing these port
+
+- **3. Scenario :** 🧑‍💻
+
+An organization wants to protect its network from unauthorized scanning. Recommend two countermeasures and explain how they would work.
+
+- **4. Scenario :** 🧑‍💻
+
+While scanning, you identify an outdated version of a service running on an open port. Why might this information be significant, and what should be your next action?
+
+- **5. Scenario :** 🧑‍💻
+
+You observe that several IP addresses are blocked by the firewall due to unusual scanning patterns. What could be the reason, and what steps would you recommend the organization take
+
+ > - **These questions provide a strong understanding of network scanning techniques, tools, and security countermeasures in an ethical hacking context. Let me know if you’d like further explanations on any specific topic!**
+
+---
 
 
 
