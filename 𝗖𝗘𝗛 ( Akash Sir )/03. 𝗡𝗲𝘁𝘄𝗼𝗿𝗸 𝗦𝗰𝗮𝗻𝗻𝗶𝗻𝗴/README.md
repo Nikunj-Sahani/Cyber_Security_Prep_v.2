@@ -87,7 +87,13 @@ These tools help **identify open ports on a system**, giving attackers insight i
    > - **nmap -sV 192.168.1.10  ::-** Service Version Detection
 
    > - **nmap -A 192.168.1.10  ::-** Aggressive Scan
-  
+
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap10.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap11.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap12.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap13.png" alt="Sample Image"></div>
+
+  ---
 **🏗️ Netcat (nc):** Often called the "Swiss Army knife" of networking,
   - [X] It's used for scanning and banner grabbing from open ports.
 
@@ -107,6 +113,10 @@ These tools help **identify open ports on a system**, giving attackers insight i
   
    > - **nc -lvnp 5555 > file.txt ::-** File transfer (receiver)
 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Netcat10.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Netcat11.png" alt="Sample Image"></div>
+
+---
 **🏗️ Masscan :** A very fast port scanner, often used for scanning large networks.
   - [X] Known as the **fastest port scanner, faster than Nmap,** but provides less detailed results.
 
@@ -122,6 +132,10 @@ These tools help **identify open ports on a system**, giving attackers insight i
   
    > - **masscan 192.168.1.0/24 -p80 --rate 1000 ::-** Set scan speed (rate)
 
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Masscan10.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Masscan11.png" alt="Sample Image"></div>
+
+---
 **Fping :** A tool used for quickly pinging multiple devices to check which hosts are live on the network.
   - [X] It can ping multiple IPs simultaneously, making it faster than the standard ping.
 
@@ -131,7 +145,7 @@ These tools help **identify open ports on a system**, giving attackers insight i
   > - Only live hosts are displayed
   > - If 192.168.1.14 is live, the output will be: **The IP**
 
-
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Fping10.png" alt="Sample Image"></div>
 
 ---
 ## Network Scanning Tools:
