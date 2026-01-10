@@ -159,19 +159,48 @@ These tools are used to scan the network to identify hosts, active devices, and 
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap2.png" alt="Sample Image" width="800" height="600"></div>
 
 ---
-**Angry IP Scanner :** A simple and fast network scanner that allows you to scan local networks for active devices.
+**🏗️ Angry IP Scanner :** A simple and fast network scanner that allows you to scan local networks for active devices.
+  - [X] Angry IP scanner is a very fast IP address and port scanner
   - [X] **Windows Installer** - [Link to Go](https://angryip.org/download/)
 
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry1.png" alt="Sample Image" width="800" height="600"></div>
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry2.png" alt="Sample Image" width="800" height="600"></div>
 
 ---
-**Advanced IP Scanner :** A network scanner that finds all devices on a local network and can also be used for remote shutdowns. Source : 
+**🏗️ Advanced IP Scanner :** A network scanner that finds all devices on a local network and can also be used for remote shutdowns.
+  - [X] It will allow you to quickly detect all network computers and obtain access to them.
   - [X] **Windows Installer** - [Link to Go](https://www.advancedipscanner.com/)
 
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance1.png" alt="Sample Image" width="800" height="600"></div>
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance2.png" alt="Sample Image" width="800" height="600"></div>
 
 ---
+## 💻 Scanning Methodology
+
+- **🔹 Check for Live Systems :-** Identify active hosts in a network using ICMP ping or other discovery methods.
+   > - _Cmd :-_ ping IP 
+  
+- **🔹 Check for Open Ports :-** Once live hosts are identified, scan them for open ports.
+   > - _Used Tools :-_ Nmap , Nikto , Netcat , Masscan.
+
+- **🔹 Scan Beyond IDS / Firewall :-** Advanced scanning techniques may be used to bypass IDS or firewall detection.
+   > - _Examples :-_ Fragmented packets , Spoofed packets , Proxies , Timing-based scans
+
+- **🔹 Banner Grabbing & OS Fingerprinting :-** Collect service banners and identify OS and service versions.
+   > - _Tools :-_ Nmap , Netcat.
+
+- **🔹 Vulnerability Scanning :-** Analyze open ports and services for known vulnerabilities.
+   > - _Purpose :-_ Identify misconfigurations , Detect outdated services
+
+
+- **🔹 Penetration Testing Report :-** Document all findings.
+   > - _Including :-_ Live hosts , Open ports , Services , Vulnerabilities , Recommendations
+
+---
+
+
+
+
+
 
 
