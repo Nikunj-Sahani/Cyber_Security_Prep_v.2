@@ -88,10 +88,10 @@ These tools help **identify open ports on a system**, giving attackers insight i
 
    > - **nmap -A 192.168.1.10  ::-** Aggressive Scan
 
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap10.png" alt="Sample Image"></div>
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap11.png" alt="Sample Image"></div>
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap12.png" alt="Sample Image"></div>
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap13.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap10.png" alt="Sample Image" width="800" height="600"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap11.png" alt="Sample Image" width="900" height="500"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap12.png" alt="Sample Image" width="900" height="500"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nmap13.png" alt="Sample Image" width="900" height="500"></div>
 
   ---
 **🏗️ Netcat (nc):** Often called the "Swiss Army knife" of networking,
@@ -145,7 +145,7 @@ These tools help **identify open ports on a system**, giving attackers insight i
   > - Only live hosts are displayed
   > - If 192.168.1.14 is live, the output will be: **The IP**
 
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Fping10.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Fping10.png" alt="Sample Image" width="900" height="500"></div>
 
 ---
 ## Network Scanning Tools:
@@ -155,22 +155,22 @@ These tools are used to scan the network to identify hosts, active devices, and 
   - [X] Zenmap is GUI version of nmap - 
   - [X] **Windows Installer** - [Link to Go](https://nmap.org/download.html)
 
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap1.png" alt="Sample Image"></div>
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap2.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap1.png" alt="Sample Image" width="800" height="600"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Zenmap2.png" alt="Sample Image" width="800" height="600"></div>
 
 ---
 **Angry IP Scanner :** A simple and fast network scanner that allows you to scan local networks for active devices.
   - [X] **Windows Installer** - [Link to Go](https://angryip.org/download/)
 
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry1.png" alt="Sample Image"></div>
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry2.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry1.png" alt="Sample Image" width="800" height="600"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Angry2.png" alt="Sample Image" width="800" height="600"></div>
 
 ---
 **Advanced IP Scanner :** A network scanner that finds all devices on a local network and can also be used for remote shutdowns. Source : 
   - [X] **Windows Installer** - [Link to Go](https://www.advancedipscanner.com/)
 
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance1.png" alt="Sample Image"></div>
-<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance2.png" alt="Sample Image"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance1.png" alt="Sample Image" width="800" height="600"></div>
+<div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Advance2.png" alt="Sample Image" width="800" height="600"></div>
 
 ---
 
