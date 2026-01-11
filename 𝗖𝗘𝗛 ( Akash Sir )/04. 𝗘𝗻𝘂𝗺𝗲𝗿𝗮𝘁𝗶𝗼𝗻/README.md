@@ -2,7 +2,7 @@
 <h2 align="center">📊 Enumeration 📊</h2>
 
 ---
-## What is Enumeration ?
+## 📢 What is Enumeration ?
 Enumeration is the process of gathering detailed information about a target system, network, or application.
 
 > - It happens during the early phase of ethical hacking or penetration testing, which is called **"reconnaissance."**
@@ -15,7 +15,7 @@ Enumeration is the process of gathering detailed information about a target syst
   > - Shared files or resources
   > - Running services
 
-## Common Enumeration Techniques:
+## 📢 Common Enumeration Techniques:
 
 - 1️⃣ **NetBIOS Enumeration →** The process of gathering system information.
   - [ ] It is a protocol used for communication between Windows systems in a local network.
@@ -113,7 +113,7 @@ Enumeration is the process of gathering detailed information about a target syst
       - [X] **Tools used :** Nmap, Enum4linux, hydra, Medusa
 
  ---
- ### Click in your Mind
+ ### 📢 Click in your Mind
  
  > - **User Account Enumeration –** Finding valid usernames on a system.
 
@@ -127,7 +127,7 @@ Enumeration is the process of gathering detailed information about a target syst
 
  > - **SMB Enumeration -** Gathering shared folders, users, groups, & system information from Windows systems using SMB protocol.
 
-### Summary of Tools:
+### 📢 Summary of Tools:
 
  > - **Nmap :** Widely used for network scanning and enumeration of services and ports.
 
@@ -141,7 +141,7 @@ Enumeration is the process of gathering detailed information about a target syst
 
  > - **Snmpwalk, snmpget :** SNMPspecific tools for querying device information.
 
-### Common Tools for Enumeration:
+### 📢 Common Tools for Enumeration:
 
  > - **NetBIOS Enumeration Tools :** Tools like `nbtscan` can be used to find shared resources on Windows systems.
 
@@ -150,6 +150,40 @@ Enumeration is the process of gathering detailed information about a target syst
  > - **Nmap Scripts :** Nmap has builtin scripts that can be used for various types of enumeration, such as identifying usernames, services, and shares.
 
 ---
+### 📢 Countermeasures and Security Enhancements
 
+- **For Enumeration:**
+
+  > - **Disable Unnecessary Services** 
+  > - **Restrict Access to Network Resources**
+  > - **Use Strong Authentication**
+  > - **Implement Account Lockout Policies**
+  > - **Regularly Monitor Network Traffic**
+
+### 📢 For BGP and NFS Exploits:
+
+- **BGP Security Measures :** A routing protocol used to exchange routing information between autonomous systems on the Internet.
+  > - Use Secure BGP (SBGP) protocols, or Resource Public Key Infrastructure (RPKI), to validate routing announcements and reduce the risk of BGP hijacking.
+  
+- **NFS Security Enhancements:** Secure NFS shares with strict access control settings, limiting access to only trusted IP addresses.
+  > - Use firewalls and ensure that NFS shares are only accessible on secure, internal networks.
+
+---
+## 📢 Words stands for
+
+- **BIOS :-** Basic Input/Output System
+- **SNMP :-** Simple Network Management Protocol
+- **LDAP :-** Lightweight Directory Access Protocol
+- **NTP :-** Network Time Protocol
+- **SMTP :-** Simple Mail Transfer Protocol
+- **IPsec :-** Internet Protocol Security
+- **VoIP :-** Voice over IP
+- **RPC :-** Remote Procedure Call
+- **SMB :-** Server Message Block
+- **BGP :-** Border Gateway Protocol
+- **NFS :-** Network File System
+
+---
+---
 
 
