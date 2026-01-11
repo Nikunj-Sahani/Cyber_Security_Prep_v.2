@@ -57,10 +57,64 @@ Enumeration is the process of gathering detailed information about a target syst
 
       - [X] **Tools used :** ntpdc, ntpq, Nmap
 
-- 5️⃣ **SMTP Enumeration →** 
+- 5️⃣ **SMTP Enumeration →** It is used for email delivery.
+   - [ ] SMTP enumeration **helps attackers gather:**
 
+      > - Valid email addresses
+      > - Mail server information
+      > - Mail server configuration details
 
+      - [X] **Tools used :** Telnet, Metasploit, smtpuserenum
 
+- 6️⃣ **DNS Enumeration Using Zone Transfer →** It converts domain names to IP addresses.
+   - [ ] A DNS zone transfer occurs when an attacker attempts to copy a **domain's DNS records to get:**
+
+      > - Subdomains
+      > - IP addresses
+      > - Mail server information
+
+      - [X] If the **DNS server allows it (misconfigured), attackers can get** a complete list of the domain’s resources.
+      - [X] **Tools used :** dig, nslookup, Fierce
+
+- 7️⃣ **IPsec Enumeration →** It is a framework for securing IP communications.
+   - [ ] In IPsec enumeration, **attackers look for:**
+
+      > - Vulnerabilities in IPsec configurations
+      > - Possible weak encryption
+      > - Exposed sensitive information like keys or configurations
+
+      - [X] **Tools used :** Nmap, Wireshark, Metasploit
+
+- 8️⃣ **VoIP Enumeration →** It enables voice communication over the internet.
+   - [ ] VoIP enumeration involves identifying and **gathering information about:**
+   - [X] VoIP services in use
+
+      > - VoIP devices
+      > - Usernames and extensions
+
+      - [X] Attackers may look for vulnerabilities like **weak authentication or insecure protocols** in the VoIP system.
+      - [X] **Tools used :** sipvicious, Nmap, Metasploit
+
+- 9️⃣ **RPC Enumeration →** It is used to execute code remotely on another machine. 
+   - [ ] During RPC enumeration, **attackers look for:**
+
+      > - Remote services running on the target
+      > - Shared resources
+      > - Potential vulnerabilities in RPC implementations
+   
+      - [X] **Tools used :** rpcclient, Nmap, Enum4linux
+
+- 🔟 **Unix/Linux User Enumeration →** On Unix and Linux systems, user enumeration is the **process of identifying valid users.**
+   - [ ] This can be done by:
+
+      > - Guessing valid usernames
+      > - Checking for usernames that trigger specific responses (e.g., login attempts or error messages)
+
+      - [X] **Tools used :** Nmap, Enum4linux, hydra, Medusa
+
+ ---
+ ### Click in your Mind
+ 
  > - **User Account Enumeration –** Finding valid usernames on a system.
 
  > - **Network Resource Enumeration –** Discovering shared folders and drives.
@@ -70,6 +124,32 @@ Enumeration is the process of gathering detailed information about a target syst
  > - **SNMP Enumeration –** Collecting device and network configuration details.
 
  > - **DNS Enumeration –** Gathering DNS records to find hostnames and IP addresses.
+
+ > - **SMB Enumeration -** Gathering shared folders, users, groups, & system information from Windows systems using SMB protocol.
+
+### Summary of Tools:
+
+ > - **Nmap :** Widely used for network scanning and enumeration of services and ports.
+
+ > - **Metasploit :** An exploitation framework often used in enumeration and vulnerability exploitation.
+
+ > - **Enum4linux :** A Linuxbased tool for SMB enumeration.
+
+ > - **NBTscan, Net view, nbtstat :** Common tools for NetBIOS enumeration.
+
+ > - **Sipvicious :** A tool used for VoIP enumeration.
+
+ > - **Snmpwalk, snmpget :** SNMPspecific tools for querying device information.
+
+### Common Tools for Enumeration:
+
+ > - **NetBIOS Enumeration Tools :** Tools like `nbtscan` can be used to find shared resources on Windows systems.
+
+ > - **SNMP Tools :** Tools like `snmpwalk` are used to extract SNMP data.
+
+ > - **Nmap Scripts :** Nmap has builtin scripts that can be used for various types of enumeration, such as identifying usernames, services, and shares.
+
+---
 
 
 
