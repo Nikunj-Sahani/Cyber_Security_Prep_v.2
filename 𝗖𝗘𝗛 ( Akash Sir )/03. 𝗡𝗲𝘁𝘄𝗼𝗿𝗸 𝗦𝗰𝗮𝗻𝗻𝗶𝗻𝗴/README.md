@@ -61,6 +61,49 @@ Before any real communication happens, they need to make sure they’re both rea
  2. **SYN-ACK (Response) :** Server says, _"Okay, I'm ready."_
  3. **ACK (Confirmation) :** Client says, _"Great, let's talk!"_
 
+### 🚩 Common TCP Flags
+
+- **SYN (Synchronize)**
+   > - Used to start a TCP connection
+   > - First step of 3-way handshake
+
+- **ACK (Acknowledgment)**
+   > - Confirms receipt of data
+   > - Used in almost every TCP packet
+
+- **FIN (Finish)**
+   > - Used to gracefully close a TCP connection
+
+- **RST (Reset)**
+   > - Immediately terminates a connection
+   > - Sent when an error occurs or port is closed
+
+- **PSH (Push)**
+   > - Tells receiver to deliver data immediately to application
+
+- **URG (Urgent)**
+   > - Indicates urgent data in the packet
+   > - Rarely used today
+
+### 📊 TCP Flags Summary Table
+
+| Flag | Full Form      | Purpose               |
+| ---- | -------------- | --------------------- |
+| SYN  | Synchronize    | Start connection      |
+| ACK  | Acknowledgment | Confirm data          |
+| FIN  | Finish         | Close connection      |
+| RST  | Reset          | Abort connection      |
+| PSH  | Push           | Send data immediately |
+| URG  | Urgent         | Priority data         |
+
+### 🔐 Attack Mapping (Important)
+
+- **SYN Flood → SYN flag abuse**
+ > - Abuse of SYN flag to create many half-open connections and cause DoS
+
+- **RST Injection → RST flag abuse**
+ > - Abuse of RST flag to forcefully terminate an active TCP connection
+
 ---
 ## 🛠️ Scanning Tools
 
