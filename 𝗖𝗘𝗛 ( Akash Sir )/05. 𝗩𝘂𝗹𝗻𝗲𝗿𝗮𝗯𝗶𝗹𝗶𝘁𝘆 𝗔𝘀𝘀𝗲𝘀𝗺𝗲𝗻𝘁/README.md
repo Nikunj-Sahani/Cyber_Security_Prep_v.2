@@ -36,24 +36,60 @@ Vulnerability analysis is a part of the scanning phase.
    > - **High**   :::: _L3_
    > - **Critical** :::: _L4_
 
-## 🔍 Types of Vulnerability Assessment (Short & Simple)
+## 🔍 Types of Vulnerability Assessment
 
-Active Assessment – Direct interaction with systems
+ > - **Active Assessment –** Direct interaction with systems
 
-Passive Assessment – Indirect monitoring without interaction
+ > - **Passive Assessment –** Indirect monitoring without interaction
 
-External Assessment – Testing from outside the organization
+ > - **External Assessment –** Testing from outside the organization
 
-Internal Assessment – Testing from inside the organization
+ > - **Internal Assessment –** Testing from inside the organization
 
-Host-Based Assessment – Assessing a single system or PC
+ > - **Host-Based Assessment –** Assessing a single system or PC
 
-Network Assessment – Assessing network devices and services
+ > - **Network Assessment –** Assessing network devices and services
 
-Application Assessment – Assessing web or mobile applications
+ > - **Application Assessment –** Assessing web or mobile applications
 
-Wireless Network Assessment – Assessing Wi-Fi security
+ > - **Wireless Network Assessment –** Assessing Wi-Fi security
+
+### 🔁 Vulnerability Management Life Cycle
+
+ - [X] **Identify –** Discover vulnerabilities
+ - [X] **Assess –** Analyze risk and severity
+ - [X] **Prioritize –** Rank vulnerabilities
+ - [X] **Remediate –** Fix or mitigate issues
+ - [X] **Verify –** Re-test to confirm fixes
+ - [X] **Monitor –** Continuously track new vulnerabilities
+
+## 📊 Vulnerability Scoring System
+
+- **1. CVSS (Common Vulnerability Scoring System) -** It assigns a score from 0.0 to 10.0 to indicate vulnerability severity:
+
+| Severity | CVSS Score Range |
+| -------- | ---------------- |
+| None     | 0.0              |
+| Low      | 0.1 – 3.9        |
+| Medium   | 4.0 – 6.9        |
+| High     | 7.0 – 8.9        |
+| Critical | 9.0 – 10.0       |
+
+ > - 👉 _Higher score = more severe vulnerability._
+
+
+- **2. CVE (Common Vulnerabilities and Exposures) –** Provides a unique ID for publicly known vulnerabilities.
+ - [X] CVE-2023-12345
+ - [X] Easy to track, reference, and share across security tools and databases.
+ 
+   > - MITRE CVE ::: [Link to Go](http://cve.mitre.org)
+   > - Exploit DataBase  ::: [Link to Go](https://www.exploit-db.com/)
+
+- **3. National Vulnerability Database (NVD) -** A government-maintained database that gives detailed **vulnerability information linked to CVE and CVSS.**
+
+   > - https://nvd.nist.gov ::: [Link to Go](https://nvd.nist.gov)
 
 
 
-  
+
+
