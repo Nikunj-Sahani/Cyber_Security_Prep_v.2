@@ -257,10 +257,10 @@ This task is performed to check the shared server of target "Means **Target is h
 
 - **Websites and tools to perform a Reverse DNS Lookup:**
 
-  > - **MXToolbox –** Reverse DNS lookup tool , [Reverse Lookup] - (https://mxtoolbox.com/ReverseLookup.aspx)
-  > - **ViewDNS –** Reverse IP / PTR record lookup , [DNS view] - (https://viewdns.info/)
-  > - **DNSChecker –** Reverse DNS checker , [Domain check] - (https://dnschecker.org/)
-  > - **IPinfo –** Shows hostname for an IP ,  [IP Lookup] - (https://ipinfo.io/)
+  > - **MXToolbox –** Reverse DNS lookup tool , [Reverse Lookup](https://mxtoolbox.com/ReverseLookup.aspx)
+  > - **ViewDNS –** Reverse IP / PTR record lookup , [DNS view](https://viewdns.info/)
+  > - **DNSChecker –** Reverse DNS checker , [Domain check](https://dnschecker.org/)
+  > - **IPinfo –** Shows hostname for an IP ,  [IP Lookup](https://ipinfo.io/)
 
 ---
 ### 🔍 Gather information Through Video search Engines
