@@ -146,6 +146,26 @@ Ethical hackers use Google search operators to find publicly available informati
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dork3.png" alt="Sample Image"></div>
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Dork4.png" alt="Sample Image"></div>
 
+### 🔍 Another Use of inurl (Google Dorking)
+The inurl search operator can be used to **identify publicly accessible web pages** based on specific keywords in the URL.
+
+  > - Some misconfigured or publicly **exposed webcam pages may appear in search results** due to poor security settings, not hacking.
+
+- **Examples (for awareness only):**
+
+  > - **inurl:view/index.shtml –** May show publicly indexed camera pages
+
+  > - **intitle:"webcamXP" inurl:8080 –** Finds pages using WebcamXP software on port 8080
+
+- [X] There are also legitimate live camera websites that stream with permission, such as:
+
+  > - Public webcam platforms
+  > - Tourism and traffic monitoring sites
+
+    > - http://www.insecam.org/en/bynew/
+    > - http://109.233.191.130:8080/
+    > - https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-di-spagna.html
+
 ---
 ## 🔍 Footprinting Through Search Engines
 Search engines are the main source of **key information about the target Organization.**
@@ -167,7 +187,7 @@ Shodan is a search engine for **Internet-connected devices used to find servers,
   > - **port :** find particular ports that are open
   > - **before/after :** find results within a timeframe
 
-- The Link to GO... **[ Shodan ]** -- (https://www.shodan.io/)
+- The Link to GO... **[ SHODAN ](https://www.shodan.io/)**
 
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Shodan1.png" alt="Sample Image"></div>
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Shodan2.png" alt="Sample Image"></div>
@@ -181,7 +201,7 @@ Censys is an Internet scanning and search platform **used to discover and analyz
 
    > - **Alternative of Shodan**
 
-- The Link to GO... **[ Censys ]** -- (https://search.censys.io/)
+- The Link to GO... **[ Censys ](https://search.censys.io/)**
 
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Censys.png" alt="Sample Image"></div>
 
@@ -191,7 +211,7 @@ Netcraft is an online information-gathering tool **used to identify web technolo
 
 👉 Used in footprinting and reconnaissance to **collect publicly available website** and **infrastructure information.**
 
-- The Link to GO... **[ Netcraft ]** -- (https://sitereport.netcraft.com/)
+- The Link to GO... **[ Netcraft ](https://sitereport.netcraft.com/)**
  
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Netcraft1.png" alt="Sample Image"></div>
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Netcraft2.png" alt="Sample Image"></div>
@@ -202,7 +222,7 @@ WHOIS Lookup is an information-gathering technique **used to obtain domain regis
 
 👉 Used in footprinting to **identify ownership and infrastructure details** of a target domain.
 
-- The Link to GO... **[ Whoislookup ]** -- (https://whois.domaintools.com/)
+- The Link to GO... **[ Whoislookup ](https://whois.domaintools.com/)**
  
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Mxtool.png" alt="Sample Image"></div>
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Domaintools.png" alt="Sample Image"></div>
@@ -213,7 +233,7 @@ Basically it track all the activity over the internet. **BuzzSumo is an online c
 
 👉 In footprinting, **it helps gather public information about an organization’s online presence**, content strategy, and key influencers.
 
-- The Link to GO... **[ Buzzsumo ]** -- (https://buzzsumo.com/)
+- The Link to GO... **[ Buzzsumo ](https://buzzsumo.com/)**
  
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Buzzsumo.png" alt="Sample Image"></div>
 
@@ -223,7 +243,7 @@ DNS turn domain name into Ip address for the browser .
 
 👉 DNS or Domain Name System footprinting reveal the DNS zone data like : **DNS server name , DNS records, IP address , domain mail server** , etc.
 
-- The Link to GO... **[ Nslookup ]** -- (https://www.nslookup.io/)
+- The Link to GO... **[ Nslookup ](https://www.nslookup.io/)**
  
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Nslookup.png" alt="Sample Image"></div>
 
@@ -248,7 +268,7 @@ TubePilot is an **OSINT tool used to analyze YouTube data** such as channels, vi
 
 👉 In footprinting, it helps gather public information about an organization’s or individual’s video content, reach, and online presence.
 
-- The Link to GO... **[ Tubepilot ]** -- (https://tubepilot.ai/tools/youtube-data-viewer/)
+- The Link to GO... **[ Tubepilot ](https://tubepilot.ai/tools/youtube-data-viewer/)**
  
 <div style="text-align: center;"><img src="https://github.com/Nikunj-Sahani/Cyber_Security_Prep_v.2/blob/main/Images/Tubepilot.png" alt="Sample Image"></div>
 
@@ -292,5 +312,3 @@ TubePilot is an **OSINT tool used to analyze YouTube data** such as channels, vi
 - **Document Findings :** Keep track of all information gathered for planning and reporting.
 - **Prioritize Privacy :** Use anonymization tools or virtual private networks (VPNs) if necessary to mask your activity.
 - **Follow Ethical Boundaries :** Ensure you’re gathering information legally and ethically, especially when working with sensitive data.
-
-ISHIKA
