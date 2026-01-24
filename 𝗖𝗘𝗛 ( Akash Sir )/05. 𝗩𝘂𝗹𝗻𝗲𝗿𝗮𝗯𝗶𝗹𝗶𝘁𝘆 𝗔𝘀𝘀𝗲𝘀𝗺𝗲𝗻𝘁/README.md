@@ -87,7 +87,7 @@ Vulnerability analysis is a part of the scanning phase.
 
 - **3. National Vulnerability Database (NVD) -** A government-maintained database that gives detailed **vulnerability information linked to CVE and CVSS.**
 
-   > - https://nvd.nist.gov ::: [Link to Go](https://nvd.nist.gov)
+   > - Vulnerability Database ::: [Link to Go](https://nvd.nist.gov)
 
 
 
