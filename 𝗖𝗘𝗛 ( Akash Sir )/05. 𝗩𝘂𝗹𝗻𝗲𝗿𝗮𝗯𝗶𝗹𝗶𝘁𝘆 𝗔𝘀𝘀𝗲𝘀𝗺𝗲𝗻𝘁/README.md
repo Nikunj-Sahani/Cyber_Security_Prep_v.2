@@ -79,17 +79,25 @@ Vulnerability analysis is a part of the scanning phase.
 
 
 - **2. CVE (Common Vulnerabilities and Exposures) –** Provides a unique ID for publicly known vulnerabilities.
- - [X] CVE-2023-12345
- - [X] Easy to track, reference, and share across security tools and databases.
+  - [X] CVE-2023-12345
+
+   - [X] Easy to track, reference, and share across security tools and databases.
  
    > - MITRE CVE ::: [Link to Go](http://cve.mitre.org)
    > - Exploit DataBase  ::: [Link to Go](https://www.exploit-db.com/)
 
-- **3. National Vulnerability Database (NVD) -** A government-maintained database that gives detailed **vulnerability information linked to CVE and CVSS.**
+- **3. National Vulnerability Database (NVD) -**
+  - [X] A government-maintained database that gives detailed **vulnerability information linked to CVE and CVSS.**
 
-   > - Vulnerability Database ::: [Link to Go](https://nvd.nist.gov)
-
-
-
+     > - Vulnerability Database ::: [Link to Go](https://nvd.nist.gov)
 
 
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                        
