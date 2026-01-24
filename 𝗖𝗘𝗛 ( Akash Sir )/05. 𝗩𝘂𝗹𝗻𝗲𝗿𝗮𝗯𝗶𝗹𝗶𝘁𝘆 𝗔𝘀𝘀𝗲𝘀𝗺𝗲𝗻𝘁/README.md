@@ -96,23 +96,43 @@ Vulnerability analysis is a part of the scanning phase.
 ## Vulnerability Assessment Tools
 👉 Used to identify, analyze, and prioritize vulnerabilities in systems and applications.
 
- > - Nmap :- network scanning tool used to discover live hosts, open ports,
->  - Nikto – Web server vulnerability scanner
->  - OWASP ZAP :- security testing tool used to find vulnerabilities like SQL Injection and XSS in web applications.
->  - Burp Suite – Web application vulnerability testing
->  - Nessus – Popular vulnerability scanner
->  - 
+ > - **Nmap :-** Network scanning tool used to discover live hosts, open ports.
+ > - **Nikto :-** Web server vulnerability scanner.
+ > - **OWASP ZAP :-** Security testing tool used to find vulnerabilities like SQL Injection and XSS in web applications.
+ > - **Burp Suite :–** Web application vulnerability testing.
+ > - **Nessus :-** Popular vulnerability scanner.
+ > - **Accunetix :-** Automated web application vulnerability scanner used to detect issues such as SQL, XSS, CSRF.
+ > - **Nexpose (InsightVM) :-** Risk-based vulnerability management.
+ > - **OpenVAS (GVM) :–** Open-source vulnerability assessment tool.
+ > - **Legion :-** Performs scanning, enumeration, and service discovery using multiple integrated tools.   
+ > - **Qualys :-** Cloud-based vulnerability scanning.
+
+### Link to Go the Websites::-
+
+- [X] **Use in Linux :-** Nikto | Legion | Nmap | OpenVAS |
+  
+[Nmap](https://nmap.org/download.html#windows) || [OwaspZAP](https://www.zaproxy.org/download) || [Burp Suite Community](https://portswigger.net/burp/communitydownload) || [Nessus](https://www.tenable.com/downloads?loginAttempted=true) || [Accunetix](https://www.acunetix.com/support/docs/wvs/installing-acunetix-wvs/) || [Nexpose](https://www.rapid7.com/products/nexpose/) || [OpenVAS](https://github.com/greenbone/openvas-scanner) || [Legion](https://github.com/Abacus-Group-RTO/legion) || [Qualys](https://www.qualys.com/community-edition)
 
 
 
+---
+## 🕹️ Example 1 🕹️ Vulnerability Assessment of a Web Application
 
+- **Scope Definition ::**
 
+    > - **System:-** E-commerce web application
+    > - **Components:-** Web server, application server, database server
+    > - **Assessment Tools:-** Nmap, OpenVAS, OWASP ZAP, Nessus
 
+- **Data Colllection ::**
 
+    > - **Network Scanning :–** Using Nmap to identify live hosts, open ports, and running services.
+    > - **Vulnerability Scanning :–** Using OpenVAS and Nessus to detect known security vulnerabilities.
+    > - **Web Application Scanning :–** Using OWASP ZAP to identify web application vulnerabilities such as XSS and SQL Injection.
 
+- **Perform Assessement ::**
 
-
-
+    > - 
 
 
 
