@@ -63,6 +63,7 @@ Vulnerability analysis is a part of the scanning phase.
  - [X] **Verify –** Re-test to confirm fixes
  - [X] **Monitor –** Continuously track new vulnerabilities
 
+---
 ## 📊 Vulnerability Scoring System
 
 - **1. CVSS (Common Vulnerability Scoring System) -** It assigns a score from 0.0 to 10.0 to indicate vulnerability severity:
@@ -75,21 +76,36 @@ Vulnerability analysis is a part of the scanning phase.
 | High     | 7.0 – 8.9        |
 | Critical | 9.0 – 10.0       |
 
- > - 👉 _Higher score = more severe vulnerability._
+   > - 👉 _Higher score = more severe vulnerability._
 
 
 - **2. CVE (Common Vulnerabilities and Exposures) –** Provides a unique ID for publicly known vulnerabilities.
   - [X] CVE-2023-12345
 
-   - [X] Easy to track, reference, and share across security tools and databases.
+  - [X] Easy to track, reference, and share across security tools and databases.
  
-   > - MITRE CVE ::: [Link to Go](http://cve.mitre.org)
-   > - Exploit DataBase  ::: [Link to Go](https://www.exploit-db.com/)
+    > - MITRE CVE ::: [Link to Go](http://cve.mitre.org)
+    > - Exploit DataBase  ::: [Link to Go](https://www.exploit-db.com/)
 
 - **3. National Vulnerability Database (NVD) -**
   - [X] A government-maintained database that gives detailed **vulnerability information linked to CVE and CVSS.**
 
      > - Vulnerability Database ::: [Link to Go](https://nvd.nist.gov)
+
+---
+## Vulnerability Assessment Tools
+👉 Used to identify, analyze, and prioritize vulnerabilities in systems and applications.
+
+ > - Nmap :- network scanning tool used to discover live hosts, open ports,
+>  - Nikto – Web server vulnerability scanner
+>  - OWASP ZAP :- security testing tool used to find vulnerabilities like SQL Injection and XSS in web applications.
+>  - Burp Suite – Web application vulnerability testing
+>  - Nessus – Popular vulnerability scanner
+>  - 
+
+
+
+
 
 
 
